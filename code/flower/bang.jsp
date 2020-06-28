@@ -134,7 +134,7 @@
 					            <img class="s" id="bang" src="images/bang.jpg" alt="뱅갈고무나무"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"영원한 행복, 변함없는 사랑"</h5>
-					              <p class="card-text">설명</p>
+					              <p class="card-text">높이는 30m 정도이며, 한 그루에서 끊임없이 가지가 퍼질 뿐만 아니라 한 가지에서 여러 개의 받침뿌리가 나와 금방 울창해집니다.</p>
 					            </div>
 					          </div>
 				        </div>
@@ -151,7 +151,7 @@
 					            <img class="s" id="cactus" src="images/cactus.jpg" alt="선인장"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"만수무강"</h5>
-					              <p class="card-text">설명</p>
+					              <p class="card-text">남/북아메리카 원산지이며, 가시로 진화한 눈이 특징입니다. 대부분 다육식물에 속합니다.</p>
 					            </div>
 					          </div>
 				        </div>
@@ -168,7 +168,7 @@
 					            <img class="s" id="scin" src="images/scin.jpg" alt="스킨답서스"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"공기 정화 기능"</h5>
-					              <p class="card-text">설명</p>
+					              <p class="card-text">천남성과에 속하는 현화식물로 프랑스령 폴리네시아가 원산지입니다. 또한 생명력이 엄청나고 공기 정화 기능이 있습니다.</p>
 					            </div>
 					          </div>
 				        </div>

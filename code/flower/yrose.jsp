@@ -134,7 +134,7 @@
 					            <img class="s" id="yrose" src="images/yrose.jpg" alt="노란장미"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"완벽한 성취"</h5>
-					              <p class="card-text">설명</p>
+					              <p class="card-text">장미과 장미속에 속합니다. 높이는 2~3m이며 잎은 어긋나고 깃 모양으로, 5~6월에 개화합니다.</p>
 					            </div>
 					          </div>
 				        </div>
@@ -151,7 +151,7 @@
 					            <img class="s" id="rgypsophila" src="images/rgypsophila.jpg" alt="붉은 안개꽃"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"기쁨의 순간"</h5>
-					              <p class="card-text">설명</p>
+					              <p class="card-text">안개꽃은 석죽과에 속하는 한해살이풀입니다. 원산지는 캅카스 등 아시아 등지이고 약 30~40cm까지 자랍니다.</p>
 					            </div>
 					          </div>
 				        </div>
@@ -168,7 +168,7 @@
 					            <img class="s" id="pampas" src="images/pampas.jpg" alt="팜파스 그라스"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"자랑스럽다"</h5>
-					              <p class="card-text">설명</p>
+					              <p class="card-text">벼과의 코르타데리아속의 여러해살이풀입니다. 원산지는 아르헨티나, 브라질 남부입니다.</p>
 					            </div>
 					          </div>
 				        </div>
@@ -185,7 +185,7 @@
 					            <img class="s" id="poinsettia" src="images/poinsettia.jpg" alt="포인세티아"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"축복, 축하합니다"</h5>
-					              <p class="card-text">설명</p>
+					              <p class="card-text">데극과에 속합니다. 개화 시기는 7~9월입니다. 가을부터 겨울까지 적색잎을 띄웁니다.</p>
 					            </div>
 					          </div>
 				        </div>

@@ -134,7 +134,7 @@
 					            <img class="s" id="money" src="images/money.jpg" alt="금전수"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"돈을 불러주는 돈나무"</h5>
-					              <p class="card-text">설명</p>
+					              <p class="card-text">금전수라는 이름은 생김새가 동전을 줄줄이 건 것 같다 하여 중국에서 유래했습니다. 다년간 잘 키우면 꽃을 볼 수 있습니다.</p>
 					            </div>
 					          </div>
 				        </div>
@@ -151,7 +151,7 @@
 					            <img class="s" id="happy" src="images/happy.jpg" alt="해피트리"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"행복을 가져다 주는"</h5>
-					              <p class="card-text">설명</p>
+					              <p class="card-text">두릅나무과의 상록관목으로 중국의 남부지방과 동남아시아에서 주로 분포합니다.</p>
 					            </div>
 					          </div>
 				        </div>

@@ -134,7 +134,7 @@
 					            <img class="s" id="tulip" src="images/tulip.jpg" alt="튤립"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"사랑의 고백"</h5>
-					              <p class="card-text">튤립은 어쩌구 저쩌구 암튼 웅앵웅</p>
+					              <p class="card-text">백합과의 여러해살이풀로 산자고속 식물의 총칭입니다. 남동 유럽과 중앙아시아가 원산지입니다.</p>
 					            </div>
 					          </div>
 				        </div>
@@ -151,7 +151,7 @@
 					            <img class="s" id="lisian" src="./images/lisian.jpg" alt="리시안셔스"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"변치않는 사랑"</h5>
-					              <p class="card-text">설명</p>
+					              <p class="card-text">용담과 우스토마속의 꽃으로 북미가 원산지입니다. 서늘한 기후에서 생육해야 합니다.</p>
 					            </div>
 					          </div>
 				        </div>
@@ -168,7 +168,7 @@
 					            <img class="s" id="rose" src="./images/rose.jpg" alt="붉은장미"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"열렬한 사랑"</h5>
-					              <p class="card-text">설명</p>
+					              <p class="card-text">장미과 장미속에 속합니다. 높이는 2~3m이며 잎은 어긋나고 깃 모양으로, 5~6월에 개화합니다.</p>
 					            </div>
 					          </div>
 				        </div>

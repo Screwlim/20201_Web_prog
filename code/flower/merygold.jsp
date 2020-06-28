@@ -14,7 +14,7 @@
     <!-- Favicons -->
     <link rel="shortcut icon" href="#">
     <!-- Page Title -->
-    <title>입학+졸업</title>
+    <title>위로</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Google Fonts -->
@@ -134,7 +134,7 @@
 					            <img class="s" id="mery" src="images/mery.jpg" alt="메리골드"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"반드시 오고야 말 행복"</h5>
-					              <p class="card-text">설명</p>
+					              <p class="card-text">국화과의 천수국속으로, 높이는 약 30cm입니다. 여름에 개화합니다.</p>
 					            </div>
 					          </div>
 				        </div>
@@ -146,12 +146,12 @@
 				        <div class="col-12">
 					          <div class="card">
 						            <div class="card-header">
-						   				<h4>작약</h4>
+						   				<h4>용담</h4>
 						            </div>
 					            <img class="s" id="yong" src="images/yong.jpg" alt="용담"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"슬픈 그대가 좋아요"</h5>
-					              <p class="card-text">설명</p>
+					              <p class="card-text">여러해살이풀로 목련강 용담목에 속합니다. 우리나라, 중국 동북부, 일본, 러시아 등지에 분포합니다. 8~10월 개화합니다. </p>
 					            </div>
 					          </div>
 				        </div>
@@ -168,7 +168,7 @@
 					            <img class="s" id="snow" src="images/snow.jpg" alt="스노우 드롭"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"희망"</h5>
-					              <p class="card-text">설명</p>
+					              <p class="card-text">설강화속 수선화과의 알뿌리 초본 식물로, 대부분 겨울에 춘분니 오기전 개화합니다.</p>
 					            </div>
 					          </div>
 				        </div>
@@ -185,7 +185,7 @@
 					            <img class="s" id="christ" src="images/christ.jpg" alt="크리스마스 로즈"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"근심을 풀어주세요"</h5>
-					              <p class="card-text">설명</p>
+					              <p class="card-text">쌍떡잎식물 미나리아재비목 미나리아재비과의 여러해살이풀입니다. 유럽이 원산지입니다.</p>
 					            </div>
 					          </div>
 				        </div>

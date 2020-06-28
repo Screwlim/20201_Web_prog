@@ -134,7 +134,7 @@
 					            <img class="s" id="campanula" src="images/campanula.jpg" alt="초롱꽃"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"감사합니다"</h5>
-					              <p class="card-text">설명</p>
+					              <p class="card-text">국화목 초롱꽃과에 속하는 한국 고유식물입니다. 전세계에 오로지 1속 1종밖에 없는 희귀식물입니다. 우리나라 중부 및 북부 이북의 고산지대 깊은 숲에서 자라는 다년생 초본입니다.</p>
 					            </div>
 					          </div>
 				        </div>
@@ -151,7 +151,7 @@
 					            <img class="s" id="gaun" src="images/gaun.jpg" alt="자운영"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"그대의 관대한 사랑에 감사합니다"</h5>
-					              <p class="card-text">설명</p>
+					              <p class="card-text">콩과에 속하는 두해살이풀입니다. 중국이 원산지로 한국 각지에서 널리 재배되고 있습니다.</p>
 					            </div>
 					          </div>
 				        </div>

@@ -14,7 +14,7 @@
     <!-- Favicons -->
     <link rel="shortcut icon" href="#">
     <!-- Page Title -->
-    <title>친구+우정</title>
+    <title>부모님+감사</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Google Fonts -->
@@ -134,7 +134,7 @@
 					            <img class="s" id="carnation" src="images/carnation.jpg" alt="카네이션"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"건강을 비는 사랑"</h5>
-					              <p class="card-text">설명</p>
+					              <p class="card-text">석죽목 석죽과 패랭이꽃속에 속하는 여러해살이풀입니다. 지중해 원산으로 추측되고 예전부터 세계 곳곳에서 길러오고 있습니다.</p>
 					            </div>
 					          </div>
 				        </div>
@@ -151,7 +151,7 @@
 					            <img class="s" id="panse" src="images/panse.jpg" alt="펜스테몬"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"은혜에 감사합니다"</h5>
-					              <p class="card-text">설명</p>
+					              <p class="card-text">다년초입니다. 반음지에서 자라고 추위에 강합니다.</p>
 					            </div>
 					          </div>
 				        </div>

@@ -92,7 +92,6 @@
     <section class="reserve-block">
         <div class="container">
             <div class="row">
-            	<div class="col-md-2"></div>
                 <div>
                     <h5>나무 심리테스트</h5>
                 </div>
@@ -104,7 +103,6 @@
     <section>
         <div class="container-fluid">
             <div class="row">
-            	<div class="col-md-3"></div>
                 <div class="col-md-6 responsive-wrap">
                     <div class="row light-bg detail-options-wrap">
                     	<%
@@ -113,30 +111,30 @@
                     	%>
                         <div class="col-sm-4 col-lg-4 col-xl-4 featured-responsive">
                             <div class="featured-place-wrap">
-                                <a href="./testTreeResult.jsp?id=<%=treeTest.getTreeID() %>">
-                                    <img src="./images/<%= treeTest.getTreeID() %>.png" class="img-fluid" alt="#">
+                                <a href="./testTreeResult.jsp?id=<%=treeTest.getTreeID() %>" target="treeR">
+                                    <img src="./images/<%= treeTest.getTreeID() %>.png" class="causes img-fluid" alt="#">
                                 </a>
                             </div>
                         </div>
                         <%
                     	}
                         %>
-                    </div>
-                    <div class="col-md-3"></div>
-                    <div class="booking-checkbox" align="right">
-						<div class="col-md-12">
-			                <div class="reserve-seat-block">
-			                    <div class="reserve-btn">
-			                        <div class="featured-btn-wrap"> 
-			                        	<a href="mindTest.jsp">                           	
-			                        		<button class="btn btn-danger" type="button">돌아가기</button>
-			                       		</a>			                        
-			                       	</div>
-			                    </div>
-			                </div>
-			            </div>
+                        <div class="booking-checkbox" align="right">
+							<div class="col-md-12">
+				                <div class="reserve-seat-block">
+				                    <div class="reserve-btn">
+				                        <div class="featured-btn-wrap"> 
+				                        	<a href="mindTest.jsp">                           	
+				                        		<button class="btn btn-danger" type="button">돌아가기</button>
+				                       		</a>			                        
+				                       	</div>
+				                    </div>
+				                </div>
+				            </div>
+	                    </div>
                     </div>
                 </div>
+                <iframe src="testTreeResult.jsp" name="treeR" class="results col-md-6 responsive-wrap"></iframe>
             </div>
         </div>
     </section>
@@ -223,6 +221,17 @@
                 }
             });
         }
+    </script>
+    <script>
+    	$(document).ready(function() {
+    		$("iframe.results").hide();
+    		$("img.causes").click(function() {
+    			$("iframe.results").show();
+    		});
+    		$("iframe.results").click(function() {
+    			$(this).hide();
+    		});
+    	});
     </script>
     <!-- Map JS (Please change the API key below. Read documentation for more info) -->
     <script src="https://maps.googleapis.com/maps/api/js?callback=myMap&key=AIzaSyDMTUkJAmi1ahsx9uCGSgmcSmqDTBF9ygg"></script>

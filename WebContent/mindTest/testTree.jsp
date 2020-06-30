@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>½É¸®Å×½ºÆ®</title>
+<title>ì‹¬ë¦¬í…ŒìŠ¤íŠ¸</title>
 <style>
 	img {
 		border:solid white 2px; 
@@ -22,20 +22,20 @@
 </style>
 </head>
 <body>
-	<h1>³ª¹« ½É¸®Å×½ºÆ®</h1>
+	<h1>ë‚˜ë¬´ ì‹¬ë¦¬í…ŒìŠ¤íŠ¸</h1>
 	<%
 		ArrayList<TestTree> treeList = testTreeDAO.getAllTests();
 	%>
 	<div>
 		<div>
-			<h3>°¡Àå ¸¶À½¿¡ µå´Â ³ª¹«¸¦ ¼±ÅÃÇØÁÖ¼¼¿ä</h3>
+			<h3>ê°€ìž¥ ë§ˆìŒì— ë“œëŠ” ë‚˜ë¬´ë¥¼ ì„ íƒí•´ì£¼ì„¸ìš”</h3>
 			<div>
 				<%
 					for (int i = 0; i < treeList.size(); i++) {
 						TestTree treeTest = treeList.get(i);
 				%>
 				<a href="./testTreeResult.jsp?id=<%=treeTest.getTreeID() %>">
-					<img src="./resources/images/<%= treeTest.getTreeID() %>.png">
+					<img src="./images/<%= treeTest.getTreeID() %>.png">
 				</a>
 				<%
 						if ((i + 1) % 3 == 0) {
@@ -46,7 +46,7 @@
 					}
 				%>
 			</div>
-			<a href="./mindTest.jsp">µ¹¾Æ°¡±â</a>
+			<a href="./mindTest.jsp">ëŒì•„ê°€ê¸°</a>
 		</div>
 	</div>
 </body>

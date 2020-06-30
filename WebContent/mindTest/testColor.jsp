@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>╫и╦╝ев╫╨ф╝</title>
+<title>Л▀╛К╕╛М┘▄Л┼╓М┼╦</title>
 <style>
 	img {
 		border:solid white 2px; 
@@ -22,20 +22,20 @@
 </style>
 </head>
 <body>
-	<h1>╩Ж╠Р ╫и╦╝ев╫╨ф╝</h1>
+	<h1>Л┐┴Й╧■ Л▀╛К╕╛М┘▄Л┼╓М┼╦</h1>
 	<%
 		ArrayList<TestColor> colorList = testColorDAO.getAllTests();
 	%>
 	<div>
 		<div>
-			<h3>е╟©Л╟М ╫мю╨ ╫д╧╟юг ╩Жю╩ ╟Я╤Саж╪╪©Д</h3>
+			<h3>М┌╓Л ╟ЙЁ═ Л▀╤Л²─ Л▀²К╛╪Л²≤ Л┐┴Л²└ ЙЁ╗К²╪Лё╪Л└╦Л ■</h3>
 			<div>
 				<%
 					for (int i = 0; i < colorList.size(); i++) {
 						TestColor colorTest = colorList.get(i);
 				%>
 				<a href="./testColorResult.jsp?id=<%= colorTest.getColorID() %>">
-					<img src="./resources/images/<%= colorTest.getColorID() %>.png">
+					<img src="./images/<%= colorTest.getColorID() %>.png">
 				</a>
 				<%
 						if ((i + 1) % 2 == 0) {
@@ -46,7 +46,7 @@
 					}
 				%>
 			</div>
-			<a href="./mindTest.jsp">╣╧╬ф╟║╠Б</a>
+			<a href="./mindTest.jsp">К▐▄Л∙└Й╟─Й╦╟</a>
 		</div>
 	</div>
 </body>

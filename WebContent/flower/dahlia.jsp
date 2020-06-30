@@ -131,7 +131,7 @@
 						            <div class="card-header">
 						   				<h4>다알리아</h4>
 						            </div>
-					            <img class="s" id="dahlia" src="images/dahlia.jpg" alt="다알리아"><br>
+					            <img class="s" id="dahlia" src="./resources/images/dahlia.jpg" alt="다알리아"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"당신의 사랑이 나를 행복하게 해요"</h5>
 					              <p class="card-text">극화과의 다알리아속으로 관상용으로 주로 심습니다. 보통 두상화의 지름이 5~7.5cm이나 대륜계의 경우 크고 아름다운 꽃을 피웁니다.</p>
@@ -148,7 +148,7 @@
 						            <div class="card-header">
 						   				<h4>진분홍 장미</h4>
 						            </div>
-					            <img class="s" id="prose" src="images/prose.jpg" alt="진분홍 장미"><br>
+					            <img class="s" id="prose" src="./resources/images/prose.jpg" alt="진분홍 장미"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"감사합니다"</h5>
 					              <p class="card-text">장미과 장미속에 속합니다. 높이는 2~3m이며 잎은 어긋나고 깃 모양으로, 5~6월에 개화합니다.</p>

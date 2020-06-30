@@ -131,7 +131,7 @@
 						            <div class="card-header">
 						   				<h4>목화</h4>
 						            </div>
-					            <img class="s" id="cotton" src="images/cotton.jpg" alt="목화"><br>
+					            <img class="s" id="cotton" src="./resources/images/cotton.jpg" alt="목화"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"어머니의 사랑"</h5>
 					              <p class="card-text">쌍떡잎식물 아욱목 아욱과 한해살이풀의 총칭입니다. 씨앗을 맺을 때 생기는 털을 이용해 솜과 무명천을 만듭니다.</p>
@@ -148,7 +148,7 @@
 						            <div class="card-header">
 						   				<h4>복숭아꽃</h4>
 						            </div>
-					            <img class="s" id="peach" src="images/peach.jpg" alt="복숭아 꽃"><br>
+					            <img class="s" id="peach" src="./resources/images/peach.jpg" alt="복숭아 꽃"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"무병장수"</h5>
 					              <p class="card-text">복숭아 나무의 꽃으로 복숭아 나무는 장미과의 벚나무속 소교목입니다. 개화 시기는 4~5월 입니다.</p>

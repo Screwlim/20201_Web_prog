@@ -131,7 +131,7 @@
 						            <div class="card-header">
 						   				<h4>메리골드</h4>
 						            </div>
-					            <img class="s" id="mery" src="images/mery.jpg" alt="메리골드"><br>
+					            <img class="s" id="mery" src="./resources/images/mery.jpg" alt="메리골드"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"반드시 오고야 말 행복"</h5>
 					              <p class="card-text">국화과의 천수국속으로, 높이는 약 30cm입니다. 여름에 개화합니다.</p>
@@ -148,7 +148,7 @@
 						            <div class="card-header">
 						   				<h4>용담</h4>
 						            </div>
-					            <img class="s" id="yong" src="images/yong.jpg" alt="용담"><br>
+					            <img class="s" id="yong" src="./resources/images/yong.jpg" alt="용담"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"슬픈 그대가 좋아요"</h5>
 					              <p class="card-text">여러해살이풀로 목련강 용담목에 속합니다. 우리나라, 중국 동북부, 일본, 러시아 등지에 분포합니다. 8~10월 개화합니다. </p>
@@ -165,7 +165,7 @@
 						            <div class="card-header">
 						   				<h4>스노우 드롭</h4>
 						            </div>
-					            <img class="s" id="snow" src="images/snow.jpg" alt="스노우 드롭"><br>
+					            <img class="s" id="snow" src="./resources/images/snow.jpg" alt="스노우 드롭"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"희망"</h5>
 					              <p class="card-text">설강화속 수선화과의 알뿌리 초본 식물로, 대부분 겨울에 춘분니 오기전 개화합니다.</p>

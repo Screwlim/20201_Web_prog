@@ -131,7 +131,7 @@
 						            <div class="card-header">
 						   				<h4>알스트로메리아</h4>
 						            </div>
-					            <img class="s" id="alstro" src="images/alstro.jpg" alt="알스트로"><br>
+					            <img class="s" id="alstro" src="./resources/images/alstro.jpg" alt="알스트로"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"배려, 우정"</h5>
 					              <p class="card-text">남아메리카를 원산지로 하는 속씨 식물 중 하나입니다. 개화시기는 4월부터 7월까지로, 상당히 오랫동안 피어있습니다.</p>
@@ -148,7 +148,7 @@
 						            <div class="card-header">
 						   				<h4>아카시아</h4>
 						            </div>
-					            <img class="s" id="accacia" src="images/accacia.jpg" alt="아카시아"><br>
+					            <img class="s" id="accacia" src="./resources/images/accacia.jpg" alt="아카시아"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"우정"</h5>
 					              <p class="card-text">꽃은 흰색이고 강한 향기가 나며 먹을 수 있습니다. 꽃이 여러개가 모여 꽃대에 주렁 주렁 자라는데, 이 길이가 8~20cm 정도 입니다.</p>

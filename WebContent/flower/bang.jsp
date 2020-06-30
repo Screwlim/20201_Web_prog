@@ -131,7 +131,7 @@
 						            <div class="card-header">
 						   				<h4>뱅갈고무나무</h4>
 						            </div>
-					            <img class="s" id="bang" src="images/bang.jpg" alt="뱅갈고무나무"><br>
+					            <img class="s" id="bang" src="./resources/images/bang.jpg" alt="뱅갈고무나무"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"영원한 행복, 변함없는 사랑"</h5>
 					              <p class="card-text">높이는 30m 정도이며, 한 그루에서 끊임없이 가지가 퍼질 뿐만 아니라 한 가지에서 여러 개의 받침뿌리가 나와 금방 울창해집니다.</p>
@@ -165,7 +165,7 @@
 						            <div class="card-header">
 						   				<h4>스킨답서스</h4>
 						            </div>
-					            <img class="s" id="scin" src="images/scin.jpg" alt="스킨답서스"><br>
+					            <img class="s" id="scin" src="./resources/images/scin.jpg" alt="스킨답서스"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"공기 정화 기능"</h5>
 					              <p class="card-text">천남성과에 속하는 현화식물로 프랑스령 폴리네시아가 원산지입니다. 또한 생명력이 엄청나고 공기 정화 기능이 있습니다.</p>

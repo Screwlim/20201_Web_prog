@@ -34,11 +34,6 @@
     <link rel="stylesheet" href="../css/magnific-popup.css">
     <!-- Main CSS -->
     <link rel="stylesheet" href="../css/style.css">
-	<style>		
-		img:hover {
-			opacity:0.5;
-		}
-	</style>
 </head>
 <body>
 	<%
@@ -128,6 +123,19 @@
                         %>
                     </div>
                     <div class="col-md-3"></div>
+                    <div class="booking-checkbox" align="right">
+						<div class="col-md-12">
+			                <div class="reserve-seat-block">
+			                    <div class="reserve-btn">
+			                        <div class="featured-btn-wrap"> 
+			                        	<a href="mindTest.jsp">                           	
+			                        		<button class="btn btn-danger" type="button">돌아가기</button>
+			                       		</a>			                        
+			                       	</div>
+			                    </div>
+			                </div>
+			            </div>
+                    </div>
                 </div>
             </div>
         </div>

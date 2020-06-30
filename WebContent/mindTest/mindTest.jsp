@@ -87,6 +87,7 @@
     <section class="reserve-block">
         <div class="container">
             <div class="row">
+            	<div class="col-md-2"></div>
                 <div class="col-md-6">
                     <h5>심리테스트</h5>
                     <p class="reserve-description">당신의 마음속을 알아보는 시간</p>
@@ -99,7 +100,8 @@
     <section>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-7 responsive-wrap">
+            	<div class="col-md-2"></div>
+                <div class="col-md-8 responsive-wrap">
                     <div class="row light-bg detail-options-wrap">
                         <div class="col-sm-6 col-lg-12 col-xl-6 featured-responsive">
                             <div class="featured-place-wrap">
@@ -108,11 +110,6 @@
                                     <div class="featured-title-box">
                                         <h6>나무 심리테스트</h6>
                                         <p>9가지 종류의 나무로 알아보는 심리테스트 </p>
-                                        <div class="bottom-icons">
-                                            <div class="closed-now">CLOSED NOW</div>
-                                            <span class="ti-heart"></span>
-                                            <span class="ti-bookmark"></span>
-                                        </div>
                                     </div>
                                 </a>
                             </div>
@@ -124,23 +121,12 @@
                                     <div class="featured-title-box">
                                         <h6>색깔 심리테스트</h6>
                                         <p>4가지 색의 식물로 알아보는 심리테스트</p>
-                                        <div class="bottom-icons">
-                                            <div class="open-now">OPEN NOW</div>
-                                            <span class="ti-heart"></span>
-                                            <span class="ti-bookmark"></span>
-                                        </div>
                                     </div>
                                 </a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-5 responsive-wrap map-wrap">
-                    <div class="map-fix">
-                        <!-- data-toggle="affix" -->
-                        <!-- Google map will appear here! Edit the Latitude, Longitude and Zoom Level below using data-attr-*  -->
-                        <div id="map" data-lat="40.674" data-lon="-73.945" data-zoom="14"></div>
-                    </div>
+                    <div class="col-md-2"></div>
                 </div>
             </div>
         </div>

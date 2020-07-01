@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>Л▀╛К╕╛М┘▄Л┼╓М┼╦</title>
+<title>╫и╦╝ев╫╨ф╝</title>
 <style>
 	img {
 		width:200px;
@@ -23,14 +23,8 @@
 
 	<div class="container-fluid">
         <div class="row">
-        	<div class="col-md-2"></div>
  			<div class="col-md-6 responsive-wrap">
  				<div class="row light-bg detail-options-wrap">
- 					<div class="col-sm-3 col-lg-6 col-xl-3 featured-responsive">
-                        <div class="featured-place-wrap">
-                            <img src="images/<%=testTree.getTreeID()%>.png">
-                        </div>
-                    </div>
                     <div class="col-sm-3 col-lg-3 col-xl-3 featured-responsive">
                     	<div class="featured-place-wrap">
 	                    	<img src="images/<%=testTree.getRecPhoto() %>">
@@ -39,14 +33,14 @@
  				</div>
  			</div>
  			<div>
- 				<h2><%=testTree.getTreeNum() %>К╡┬ К┌≤К╛╢</h2>
+ 				<h2><%=testTree.getTreeNum() %>╧Ь Ё╙╧╚</h2>
  			</div>
  			<div>
- 				К╔╪ Л└═М┐²М∙° К▀╧Л▀═Л²─ <%=testTree.getTreePerson() %>Л·┘К▀┬К▀╓.
+ 				╦╕ ╪╠ецгя ╢Г╫ею╨ <%=testTree.getTreePerson() %>ют╢о╢ы.
 				<p><%=testTree.getTreeDescription() %></p>
  			</div>
  			<div>
- 				Л²╢К÷╟ К▀╧Л▀═Л≈░Й╡▄ Л╤■Л╡°М∙≤К┼■ Й╫┐Л²─ "<%=testTree.getRecName() %>"Л·┘К▀┬К▀╓.
+ 				юл╥╠ ╢Г╫е©║╟т цъц╣го╢б ╡ию╨ "<%=testTree.getRecName() %>"ют╢о╢ы.
  			</div>
         </div>
     </div>

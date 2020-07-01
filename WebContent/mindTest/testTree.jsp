@@ -19,21 +19,21 @@
     <!-- Page Title -->
     <title>Listing &amp; Directory Website Template</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
     <!-- Simple line Icon -->
-    <link rel="stylesheet" href="../css/simple-line-icons.css">
+    <link rel="stylesheet" href="../resources/css/simple-line-icons.css">
     <!-- Themify Icon -->
-    <link rel="stylesheet" href="../css/themify-icons.css">
+    <link rel="stylesheet" href="../resources/css/themify-icons.css">
     <!-- Hover Effects -->
-    <link rel="stylesheet" href="../css/set1.css">
+    <link rel="stylesheet" href="../resources/css/set1.css">
     <!-- Swipper Slider -->
-    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../resources/css/swiper.min.css">
     <!-- Magnific Popup CSS -->
-    <link rel="stylesheet" href="../css/magnific-popup.css">
+    <link rel="stylesheet" href="../resources/css/magnific-popup.css">
     <!-- Main CSS -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../resources/css/style.css">
 </head>
 <body>
 	<%
@@ -50,33 +50,33 @@
             <div class="swiper-wrapper">
 
                 <div class="swiper-slide">
-                    <a href="../images/reserve-slide2.jpg" class="grid image-link">
-                        <img src="../images/reserve-slide2.jpg" class="img-fluid" alt="#">
+                    <a href="../resources/images/reserve-slide2.jpg" class="grid image-link">
+                        <img src="../resources/images/reserve-slide2.jpg" class="img-fluid" alt="#">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="../images/reserve-slide1.jpg" class="grid image-link">
-                        <img src="../images/reserve-slide1.jpg" class="img-fluid" alt="#">
+                    <a href="../resources/images/reserve-slide1.jpg" class="grid image-link">
+                        <img src="../resources/images/reserve-slide1.jpg" class="img-fluid" alt="#">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="../images/reserve-slide3.jpg" class="grid image-link">
-                        <img src="../images/reserve-slide3.jpg" class="img-fluid" alt="#">
+                    <a href="../resources/images/reserve-slide3.jpg" class="grid image-link">
+                        <img src="../resources/images/reserve-slide3.jpg" class="img-fluid" alt="#">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="../images/reserve-slide1.jpg" class="grid image-link">
-                        <img src="../images/reserve-slide1.jpg" class="img-fluid" alt="#">
+                    <a href="../resources/images/reserve-slide1.jpg" class="grid image-link">
+                        <img src="../resources/images/reserve-slide1.jpg" class="img-fluid" alt="#">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="../images/reserve-slide2.jpg" class="grid image-link">
-                        <img src="../images/reserve-slide2.jpg" class="img-fluid" alt="#">
+                    <a href="../resources/images/reserve-slide2.jpg" class="grid image-link">
+                        <img src="../resources/images/reserve-slide2.jpg" class="img-fluid" alt="#">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="../images/reserve-slide3.jpg" class="grid image-link">
-                        <img src="../images/reserve-slide3.jpg" class="img-fluid" alt="#">
+                    <a href="../resources/images/reserve-slide3.jpg" class="grid image-link">
+                        <img src="../resources/images/reserve-slide3.jpg" class="img-fluid" alt="#">
                     </a>
                 </div>
             </div>
@@ -134,7 +134,8 @@
 	                    </div>
                     </div>
                 </div>
-                <iframe src="testTreeResult.jsp" name="treeR" class="results col-md-6 responsive-wrap"></iframe>
+                <iframe style="border-style:none;" src="testTreeResult.jsp" name="treeR" class="results col-md-6 responsive-wrap"></iframe>
+                
             </div>
         </div>
     </section>
@@ -149,14 +150,14 @@
 
     <!-- jQuery, Bootstrap JS. -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="../js/jquery-3.2.1.min.js"></script>
-    <script src="../js/popper.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="../resources/js/jquery-3.2.1.min.js"></script>
+    <script src="../resources/js/popper.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
 
     <!-- Magnific popup JS -->
-    <script src="../js/jquery.magnific-popup.js"></script>
+    <script src="../resources/js/jquery.magnific-popup.js"></script>
     <!-- Swipper Slider JS -->
-    <script src="../js/swiper.min.js"></script>
+    <script src="../resources/js/swiper.min.js"></script>
 
     <script>
         $(".map-icon").click(function() {

@@ -8,6 +8,8 @@ public class TestColor implements Serializable {
 	private String colorID;
 	private String colorPerson;
 	private String colorDescription;
+	private String recName;
+	private String recPhoto;
 	
 	public TestColor() {
 		super();
@@ -48,5 +50,21 @@ public class TestColor implements Serializable {
 	
 	public void setColorDescription(String colorDescription) {
 		this.colorDescription = colorDescription;
+	}
+	
+	public String getRecName() {
+		return recName;
+	}
+	
+	public void setRecName(String recName) {
+		this.recName = recName;
+	}
+	
+	public String getRecPhoto() {
+		return recPhoto;
+	}
+	
+	public void setRecPhoto(String recPhoto) {
+		this.recPhoto = recPhoto;
 	}
 }

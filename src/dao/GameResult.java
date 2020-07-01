@@ -40,45 +40,72 @@ public class GameResult {
 		}
 		
 		result[0].setResult("철쭉");
+		result[0].setImage("../resources/images/azalea.jpg");
 		result[1].setResult("장미");
+		result[1].setImage("../resources/images/rose.jpg");
 		result[2].setResult("무궁화");
+		result[2].setImage("../resources/images/sharon.jpg");
 		result[3].setResult("동백나무");
+		result[3].setImage("../resources/images/camelia.jpg");
 		
 		result[4].setResult("개나리");
-		result[5].setResult("아카시아");
+		result[4].setImage("../resources/images/forsythia.jpg");
+		result[5].setResult("");
 		result[6].setResult("금목서");
-		result[7].setResult("둥근잎생강나무");
+		result[6].setResult("../resources/images/osmanthus.jpg");
+		result[7].setResult("");
 		
 		result[8].setResult("목련");
-		result[9].setResult("치자나무");
+		result[8].setResult("../resources/images/magnolia.jpg");
+		result[9].setResult("아카시아");
+		result[9].setImage("../resources/images/accacia.jpg");
 		result[10].setResult("차나무");
-		result[11].setResult("흰동백나무");
+		result[10].setImage("../resources/images/teaplant.jpg");
+		result[11].setResult("동백나무");
+		result[11].setImage("../resources/images/camelia_white.jpg");
 		
 		result[12].setResult("진달래");
+		result[12].setImage("../resources/images/jindallae.jpg");
 		result[13].setResult("싸리");
-		result[14].setResult("무궁화");
+		result[14].setImage("../resources/images/lespedeza.jpg");
+		result[14].setResult("");
 		result[15].setResult("");
 		
 		
 		result[16].setResult("앵초");
+		result[16].setImage("../resources/images/primpose.jpg");
 		result[17].setResult("봉선화");
+		result[17].setImage("../resources/images/balsam.jpg");
 		result[18].setResult("채송화");
+		result[19].setImage("../resources/images/rosemoss.jpg");
 		result[19].setResult("아마릴리스");
+		result[19].setImage("../resources/images/amaryllis.jpg");
 		
 		result[20].setResult("민들레");
+		result[20].setImage("../resources/images/dandelion.jpg");
 		result[21].setResult("해바라기");
+		result[21].setImage("../resources/images/sunflower.jpg");
 		result[22].setResult("국화");
+		result[22].setImage("../resources/images/chrysanthemum.jpg");
 		result[23].setResult("난초");
+		result[23].setImage("../resources/images/orchid.jpg");
 		
 		result[24].setResult("백합");
+		result[24].setImage("../resources/images/snow.jpg");
 		result[25].setResult("개망초");
+		result[25].setImage("../resources/images/eggflower.jpg");
 		result[26].setResult("코스모스");
-		result[27].setResult("수선화");
+		result[26].setImage("../resources/images/cosmos.jpg");
+		result[27].setResult("");
 		
 		result[28].setResult("제비꽃");
-		result[29].setResult("라벤더, 구름패랭이꽃");
-		result[30].setResult("목화");
+		result[28].setImage("../resources/images/violet.jpg");
+		result[29].setResult("구름패랭이꽃");
+		result[29].setImage("../resources/images/cloud.jpg");
+		result[30].setResult("꽃향유");
+		result[30].setImage("../resources/images/shinymint.jpg");
 		result[31].setResult("사랑초");
+		result[31].setImage("../resources/images/loveflower.jpg");
 		
 	}
 	

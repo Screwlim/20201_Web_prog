@@ -42,7 +42,7 @@
 		<div class="container-fluid">
 
 			<!-- sql문 파라미터로 넘어갈 form 값들 -->
-			<form action="#" name="options" method="post">
+			<form action="SearchByOptions.do" name="options" method="post">
 
 				<div class="col-md-12 responsive-wrap">
 					<!-- 검색 버튼  -->
@@ -172,19 +172,10 @@
 			</form>
 			<!-- 검색 버튼  END -->
 			<!-- sql문 파라미터로 넘어갈 form 값들 -->
-			<%
-				String[] season_param = request.getParameterValues("season");
-				if (season_param == null) {
-
-				} else {
-					for (String val : season_param) {
-						out.println(val + "<br>");
-					}
-				}
-			%>
-			<jsp:include page="test.jsp" flush="false"/>
+		
+			
 	</section>
-
+<jsp:include page="search_result.jsp" flush="false"/>
 
 	<!--//END DETAIL -->
 	<!--============================= FOOTER =============================-->

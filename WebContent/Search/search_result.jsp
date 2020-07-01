@@ -46,7 +46,7 @@
 	%>
 	<div class="col-sm-8 col-md-4 col-lg-4 col-xl-4 featured-responsive">
 		<div class="featured-place-wrap">
-			<img src="../resources/images/<%=result.getImage_Path() %>" 
+			<img src="<%=request.getContextPath() %>/resources/images/<%=result.getImage_Path() %>" 
 				class="img-fluid" alt="<%= result.getFname()%>"> 
 				<div class="featured-title-box card-header">
 					<h6><%= result.getFname() %></h6>

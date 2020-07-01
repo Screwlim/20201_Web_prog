@@ -31,9 +31,14 @@ public final class SearchController extends HttpServlet {
 		response.setContentType("text/html; charset=utf-8");
 		request.setCharacterEncoding("utf-8");
 		System.out.println("here");
-		if(command.equals("/Search/SearchByOptions.do")) {
+		System.out.println(command);
+		if(command.equals("/Search/SearchByOptions.do") ) {
 			requestSearchByOptions(request);
 			RequestDispatcher rd = request.getRequestDispatcher("search_flower.jsp");
+			rd.forward(request, response);
+		}else if(command.equals("/SearchByOptions.do")){
+			requestSearchByOptions(request);
+			RequestDispatcher rd = request.getRequestDispatcher("/Search/search_flower.jsp");
 			rd.forward(request, response);
 		}else if(command.equals("/Search/SearchByKeyword.do")) {
 			System.out.println("in search by keyword");

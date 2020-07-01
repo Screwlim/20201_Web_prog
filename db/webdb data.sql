@@ -7,11 +7,26 @@ insert into COLORS values (5, '분홍');
 insert into COLORS values (6, '하얀');
 insert into COLORS values (7, '주황');
 
-------------------------------make SEASONS-------------------------------------------------
+------------------------------make SEASONS-----------------------------------------------
 insert into SEASONS values (0, '봄');
 insert into SEASONS values (1, '여름');
 insert into SEASONS values (2, '가을');
 insert into SEASONS values (3, '겨울');
+
+------------------------------make FLOWER-------------------------------------------------
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('다알리아', 0, 0);
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('장미', 1, 0);
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('안개꽃', 2, 0);
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('팜파스 그라스', 3, 0);
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('포인세티아', 4, 0);
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('메리골드', 5, 0);
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('용담', 6, 0);
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('스노우 드롭', 7, 0);
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('크리스마스 로즈', 8, 0);
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('프리지아', 9, 0);
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('작약', 10, 0);
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('금전수', 11, 0);
+
 ------------------------------make SEASON-------------------------------------------------
 Insert into SEASON values (0, 1);
 Insert into SEASON values (1, 1);
@@ -35,7 +50,7 @@ Insert into SEASON values (11, 1);
 Insert into SEASON values (11, 2);
 Insert into SEASON values (11, 3);
 
-------------------------------make KEYWORDS-------------------------------------------------
+-------------------------- make KEYWORDS ----------------------------------------------
 insert into KEYWORDS values (0, '희망');
 insert into KEYWORDS values (1, '사랑');
 insert into KEYWORDS values (2, '우정');
@@ -59,24 +74,10 @@ insert into KEYWORDS values (19, '최선');
 insert into KEYWORDS values (20, '건강');
 insert into KEYWORDS values (21, '아름다움');
 
-------------------------------make USER_INFO-------------------------------------------------
+------------------------- make USER_INFO ---------------------------------------------
 insert into USER_INFO values ('test', 'test', '김철수', 'M', to_date('1990-05-23','yyyy-mm-dd'), '434123453', '대한민국 대구광역시 북구 대현동 183-3번지', 'test');
 
-------------------------------make FLOWER-------------------------------------------------
-insert into FLOWER(Fname, F_ID, Birth_Month) values ('다알리아', 0, 0);
-insert into FLOWER(Fname, F_ID, Birth_Month) values ('장미', 1, 0);
-insert into FLOWER(Fname, F_ID, Birth_Month) values ('안개꽃', 2, 0);
-insert into FLOWER(Fname, F_ID, Birth_Month) values ('팜파스 그라스', 3, 0);
-insert into FLOWER(Fname, F_ID, Birth_Month) values ('포인세티아', 4, 0);
-insert into FLOWER(Fname, F_ID, Birth_Month) values ('메리골드', 5, 0);
-insert into FLOWER(Fname, F_ID, Birth_Month) values ('용담', 6, 0);
-insert into FLOWER(Fname, F_ID, Birth_Month) values ('스노우 드롭', 7, 0);
-insert into FLOWER(Fname, F_ID, Birth_Month) values ('크리스마스 로즈', 8, 0);
-insert into FLOWER(Fname, F_ID, Birth_Month) values ('프리지아', 9, 0);
-insert into FLOWER(Fname, F_ID, Birth_Month) values ('작약', 10, 0);
-insert into FLOWER(Fname, F_ID, Birth_Month) values ('금전수', 11, 0);
-
-------------------------------make CATEGORIZED-------------------------------------------------
+---------------------------- make CATEGORIZED --------------------------------------------
 
 insert into CATEGORIZED values (0, 1, 1); // 다알리아
 insert into CATEGORIZED values (0, 7, 1); //
@@ -97,7 +98,7 @@ insert into CATEGORIZED values (10, 13, 5); //
 insert into CATEGORIZED values (11, 16, 2); // 
 
 
-------------------------------make F_DETAIL-------------------------------------------------
+--------------------------- make F_DETAIL ----------------------------------------------
 
 insert into F_DETAIL values(0, 1, '당신의 사랑이 나를 행복하게 해요', 'dahlia.jpg');
 insert into F_DETAIL values(1, 2, '완벽한 성취', 'yrose.jpg');

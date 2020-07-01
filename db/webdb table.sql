@@ -8,7 +8,7 @@ DROP TABLE KEYWORDS CASCADE CONSTRAINTS;
 DROP TABLE FLOWER CASCADE CONSTRAINTS;
 
 Create table FLOWER(
-	Fname varchar2(20),
+	Fname varchar2(50),
 	F_ID number primary Key,
 	Birth_Month number
 );

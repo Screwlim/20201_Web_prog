@@ -7,79 +7,79 @@ public class TestTreeList {
 	
 	public TestTreeList() {
 		TestTree tree1 = new TestTree("1", "tree1");
-		tree1.setTreePerson("ê´€ëŒ€í•˜ê³  ë„ë•ì ì¸ ì‚¬ëžŒ");
-		tree1.setTreeDescription("ë‹¹ì‹ ì€ ëŠìž„ì—†ì´ ì‰¬ì§€ ì•Šê³  ìžê¸°ê°œë°œì„ í•˜ë ¤ê³  ë…¸ë ¥í•˜ëŠ” ì‚¬ëžŒì´ì˜ˆìš”.<br>"
-				+ "ë§¤ìš° ì•¼ë§ì ì´ê³  ë†’ì€ ê¸°ì¤€ì„ ê°€ì§€ê³  ìžˆì–´ì„œ ì‚¬ëžŒë“¤ì€ ë‹¹ì‹ ê³¼ ì˜ì‚¬ì†Œí†µì„ í•˜ëŠ” ê²ƒì„ ì¡°ê¸ˆ ì–´ë ¤ì›Œí•  ìˆ˜ ìžˆì–´ìš”.<br>"
-				+ "ì¼ì„ ì—´ì‹¬ížˆ í•˜ëŠ” ê²ƒì€ ì„¸ìƒì˜ ë³€í™”ë¥¼ ì›í•˜ê¸° ë•Œë¬¸ì´ë‹ˆ ì´ê¸°ì ì¸ ê±´ ì•„ë‹ˆì£ .<br>"
-				+ "ë‹¤ë¥¸ ì‚¬ëžŒë“¤ì´ ë‹¹ì‹ ì—ê²Œ í•´ë¥¼ ìž…ížˆê¸° ì „ê¹Œì§€ëŠ” ë‚¨ì„ ê´´ë¡­ížˆì§€ ì•Šìœ¼ë©° ì†Œìˆ˜ì˜ ì‚¬ëžŒë“¤ì€ ë‹¹ì‹ ì˜ ê°€ì¹˜ë¥¼ ì•Œê³  ê°ì‚¬í•´í•˜ê¸°ë„ í•œë‹µë‹ˆë‹¤.");
-		tree1.setRecName("ì§„ë‹¬ëž˜");
-		tree1.setRecPhoto("rec1_azalea.png");
+		tree1.setTreePerson("°ü´ëÇÏ°í µµ´öÀûÀÎ »ç¶÷");
+		tree1.setTreeDescription("´ç½ÅÀº ²÷ÀÓ¾øÀÌ ½¬Áö ¾Ê°í ÀÚ±â°³¹ßÀ» ÇÏ·Á°í ³ë·ÂÇÏ´Â »ç¶÷ÀÌ¿¹¿ä.<br>"
+				+ "¸Å¿ì ¾ß¸ÁÀûÀÌ°í ³ôÀº ±âÁØÀ» °¡Áö°í ÀÖ¾î¼­ »ç¶÷µéÀº ´ç½Å°ú ÀÇ»ç¼ÒÅëÀ» ÇÏ´Â °ÍÀ» Á¶±Ý ¾î·Á¿öÇÒ ¼ö ÀÖ¾î¿ä.<br>"
+				+ "ÀÏÀ» ¿­½ÉÈ÷ ÇÏ´Â °ÍÀº ¼¼»óÀÇ º¯È­¸¦ ¿øÇÏ±â ¶§¹®ÀÌ´Ï ÀÌ±âÀûÀÎ °Ç ¾Æ´ÏÁÒ.<br>"
+				+ "´Ù¸¥ »ç¶÷µéÀÌ ´ç½Å¿¡°Ô ÇØ¸¦ ÀÔÈ÷±â Àü±îÁö´Â ³²À» ±«·ÓÈ÷Áö ¾ÊÀ¸¸ç ¼Ò¼öÀÇ »ç¶÷µéÀº ´ç½ÅÀÇ °¡Ä¡¸¦ ¾Ë°í °¨»çÇØÇÏ±âµµ ÇÑ´ä´Ï´Ù.");
+		tree1.setRecName("Áø´Þ·¡");
+		tree1.setRecPhoto("../resources/images/azalea.jpg");
 		
 		TestTree tree2 = new TestTree("2", "tree2");
-		tree2.setTreePerson("ìž¬ë¯¸ìžˆê³  ì •ì§í•œ ì‚¬ëžŒ");
-		tree2.setTreeDescription("ìœ ë¨¸ìŠ¤ëŸ¬ìš°ë©´ì„œë„ ì±…ìž„ê°ì´ ê°•í•˜ë©° ë‹¤ë¥¸ ì‚¬ëžŒë“¤ì„ ëŒë³´ëŠ” ê²ƒì„ ì¢‹ì•„í•˜ëŠ” ì‚¬ëžŒìž…ë‹ˆë‹¤.<br>"
-				+ "ì´ëŸ° ì •ì§í•¨ìœ¼ë¡œ íšŒì‚¬ì—ì„œë„ ë§Žì€ ì—…ë¬´ ê´€ë ¨ ì±…ìž„ì„ ë§¡ëŠ” ê²½ìš°ê°€ ëŒ€ë¶€ë¶„ì´ê³  ì‚¬ëžŒë“¤ê³¼ì˜ ì¹œë°€ê°ì´ ë†’ì€ íŽ¸ì´ì–´ì„œ ë§Žì€ ì‚¬ëžŒë“¤ì´ ì‰½ê²Œ ì‹ ë¢°ë¥¼ í•œë‹¤ê³  í•´ìš”.<br>"
-				+ "ë°ê³  ìž¬ì¹˜ê°€ ìžˆìœ¼ë©° ìˆœë°œë ¥ê¹Œì§€ ì¢‹ì€ ë‹¹ì‹ ì€ ì§ìž¥ ë™ë£Œ í˜¹ì€ ì¹œêµ¬ë“¤ê³¼ì˜ ë§Œë‚¨ì˜ ìžë¦¬ë¥¼ ì¦ê²ê²Œ ë§Œë“¤ì–´ì£¼ëŠ” ì—­í• ì„ í•©ë‹ˆë‹¤.");
-		tree2.setRecName("êµ­í™”");
-		tree2.setRecPhoto("rec2_chrysanthemum.png");
+		tree2.setTreePerson("Àç¹ÌÀÖ°í Á¤Á÷ÇÑ »ç¶÷");
+		tree2.setTreeDescription("À¯¸Ó½º·¯¿ì¸é¼­µµ Ã¥ÀÓ°¨ÀÌ °­ÇÏ¸ç ´Ù¸¥ »ç¶÷µéÀ» µ¹º¸´Â °ÍÀ» ÁÁ¾ÆÇÏ´Â »ç¶÷ÀÔ´Ï´Ù.<br>"
+				+ "ÀÌ·± Á¤Á÷ÇÔÀ¸·Î È¸»ç¿¡¼­µµ ¸¹Àº ¾÷¹« °ü·Ã Ã¥ÀÓÀ» ¸Ã´Â °æ¿ì°¡ ´ëºÎºÐÀÌ°í »ç¶÷µé°úÀÇ Ä£¹Ð°¨ÀÌ ³ôÀº ÆíÀÌ¾î¼­ ¸¹Àº »ç¶÷µéÀÌ ½±°Ô ½Å·Ú¸¦ ÇÑ´Ù°í ÇØ¿ä.<br>"
+				+ "¹à°í ÀçÄ¡°¡ ÀÖÀ¸¸ç ¼ø¹ß·Â±îÁö ÁÁÀº ´ç½ÅÀº Á÷Àå µ¿·á È¤Àº Ä£±¸µé°úÀÇ ¸¸³²ÀÇ ÀÚ¸®¸¦ Áñ°Ì°Ô ¸¸µé¾îÁÖ´Â ¿ªÇÒÀ» ÇÕ´Ï´Ù.");
+		tree2.setRecName("±¹È­");
+		tree2.setRecPhoto("../resources/images/chrysanthemum.jpg");
 		
 		TestTree tree3 = new TestTree("3", "tree3");
-		tree3.setTreePerson("ë˜‘ë˜‘í•˜ê³  ìƒê°ì´ ë§Žì€ ì‚¬ëžŒ");
-		tree3.setTreeDescription("ì•„ì£¼ ë©‹ì§„ ìƒìƒë ¥ì„ ê°€ì§€ê³  ìžˆì–´ ë‹¹ì‹ ì˜ ì•„ì´ë””ì–´ì™€ ìƒê°ë“¤ì€ ë‹¹ì‹ ì˜ ì¡´ìž¬ ê·¸ ìžì²´ë¼ê³  í•  ìˆ˜ ìžˆì–´ìš”.<br>"
-				+ "í˜¼ìž ê³°ê³°ížˆ ìƒê°í•˜ëŠ” ê²ƒì„ ì¦ê¸°ë©° ë‚´ì„±ì ì´ë¼ê³  í•  ìˆ˜ ìžˆì–´ìš”.<br>"
-				+ "ë‚˜ì™€ ë˜‘ê°™ì€ ê¸¸ì„ ìƒê°í•˜ê³  ë°°ìš°ëŠ” ê²ƒì„ ì¦ê¸°ëŠ” ì‚¬ëžŒë“¤ì„ ì¢‹ì•„í•´ìš”.<br>"
-				+ "ë„ë•ì ì¸ ì‚¬ê³ ë¥¼ í•˜ëŠ” ë° ì‹œê°„ì„ ë§Žì´ ë³´ë‚´ë©° ë‹¹ì‹ ì€ ëŒ€ë¶€ë¶„ ì‚¬ëžŒë“¤ì´ ë°˜ëŒ€í•˜ë”ë¼ë„ ê·¸ê²ƒì´ ì˜³ì€ ì¼ì´ë¼ ìƒê°í•œë‹¤ë©´ ë°”ë¡œ í–‰ë™ìœ¼ë¡œ ì˜®ê¸°ë ¤ëŠ” ì‚¬ëžŒìž…ë‹ˆë‹¤.");
-		tree3.setRecName("ëª©ë ¨");
-		tree3.setRecPhoto("rec3_magnolia.png");
+		tree3.setTreePerson("¶È¶ÈÇÏ°í »ý°¢ÀÌ ¸¹Àº »ç¶÷");
+		tree3.setTreeDescription("¾ÆÁÖ ¸ÚÁø »ó»ó·ÂÀ» °¡Áö°í ÀÖ¾î ´ç½ÅÀÇ ¾ÆÀÌµð¾î¿Í »ý°¢µéÀº ´ç½ÅÀÇ Á¸Àç ±× ÀÚÃ¼¶ó°í ÇÒ ¼ö ÀÖ¾î¿ä.<br>"
+				+ "È¥ÀÚ °õ°õÈ÷ »ý°¢ÇÏ´Â °ÍÀ» Áñ±â¸ç ³»¼ºÀûÀÌ¶ó°í ÇÒ ¼ö ÀÖ¾î¿ä.<br>"
+				+ "³ª¿Í ¶È°°Àº ±æÀ» »ý°¢ÇÏ°í ¹è¿ì´Â °ÍÀ» Áñ±â´Â »ç¶÷µéÀ» ÁÁ¾ÆÇØ¿ä.<br>"
+				+ "µµ´öÀûÀÎ »ç°í¸¦ ÇÏ´Â µ¥ ½Ã°£À» ¸¹ÀÌ º¸³»¸ç ´ç½ÅÀº ´ëºÎºÐ »ç¶÷µéÀÌ ¹Ý´ëÇÏ´õ¶óµµ ±×°ÍÀÌ ¿ÇÀº ÀÏÀÌ¶ó »ý°¢ÇÑ´Ù¸é ¹Ù·Î Çàµ¿À¸·Î ¿Å±â·Á´Â »ç¶÷ÀÔ´Ï´Ù.");
+		tree3.setRecName("¸ñ·Ã");
+		tree3.setRecPhoto("../resources/images/magnolia.jpg");
 		
 		TestTree tree4 = new TestTree("4", "tree4");
-		tree4.setTreePerson("ì§€í˜œë¡­ê³  í˜„ëª…í•œ ì‚¬ëžŒ");
-		tree4.setTreeDescription("ì„¸ìƒì— ë‹¹ì‹  ê°™ì€ ì‚¬ëžŒì€ ë˜ ì—†ì„ ë§Œí¼ ì•„ì£¼ ë…íŠ¹í•˜ê³  íŠ¹ë³„í•œ ì˜í˜¼ì„ ê°€ì§€ê³  ìžˆì–´ìš”.<br>"
-				+ "ê·¸ëž˜ì„œ ì‚¬ëžŒë“¤ë¡œ í•˜ì—¬ê¸ˆ ì§ê´€ì ì´ê³  ë‹¹í™©ìŠ¤ëŸ½ë‹¤ê³  ì˜¤í•´ë¥¼ ë°›ê¸°ë„ í•´ì„œ ë‹¹ì‹ ì€ ìƒì²˜ë¥¼ ë°›ê³  ìŠ¬í¼í•©ë‹ˆë‹¤.<br>"
-				+ "ë‚˜ë§Œì„ ìœ„í•œ ê°œì¸ ê³µê°„ì„ ì°¾ê²Œ ë˜ê³  ë¹›ê³¼ ì–´ë‘ , ì‹ ê³¼ ê°™ì€ ì² í•™ì ì¸ ë¶€ë¶„ì— ëŒ€í•´ ê¹Šì´ ìƒê°í•˜ëŠ” ë§¤ìš° ê°ì •ì ì¸ ì‚¬ëžŒìž…ë‹ˆë‹¤.");
-		tree4.setRecName("ê¸°ìƒê½ƒ");
-		tree4.setRecPhoto("rec4_parasitic.png");
+		tree4.setTreePerson("ÁöÇý·Ó°í Çö¸íÇÑ »ç¶÷");
+		tree4.setTreeDescription("¼¼»ó¿¡ ´ç½Å °°Àº »ç¶÷Àº ¶Ç ¾øÀ» ¸¸Å­ ¾ÆÁÖ µ¶Æ¯ÇÏ°í Æ¯º°ÇÑ ¿µÈ¥À» °¡Áö°í ÀÖ¾î¿ä.<br>"
+				+ "±×·¡¼­ »ç¶÷µé·Î ÇÏ¿©±Ý Á÷°üÀûÀÌ°í ´çÈ²½º·´´Ù°í ¿ÀÇØ¸¦ ¹Þ±âµµ ÇØ¼­ ´ç½ÅÀº »óÃ³¸¦ ¹Þ°í ½½ÆÛÇÕ´Ï´Ù.<br>"
+				+ "³ª¸¸À» À§ÇÑ °³ÀÎ °ø°£À» Ã£°Ô µÇ°í ºû°ú ¾îµÒ, ½Å°ú °°Àº Ã¶ÇÐÀûÀÎ ºÎºÐ¿¡ ´ëÇØ ±íÀÌ »ý°¢ÇÏ´Â ¸Å¿ì °¨Á¤ÀûÀÎ »ç¶÷ÀÔ´Ï´Ù.");
+		tree4.setRecName("±â»ý²É");
+		tree4.setRecPhoto("../resources/images/parasitic.jpg");
 		
 		TestTree tree5 = new TestTree("5", "tree5");
-		tree5.setTreePerson("ìžì‹ ê° ìžˆê³  ì±…ìž„ê° ìžˆëŠ” ì‚¬ëžŒ");
-		tree5.setTreeDescription("ì˜ì§€í•˜ì§€ ì•Šìœ¼ë ¤ëŠ” íž˜ì´ ë§¤ìš° ê°•í•´ ë§¤ìš° ë…ë¦½ì ì¸ ì‚¬ëžŒìž…ë‹ˆë‹¤.<br>"
-				+ "ë‹¹ì‹ ì˜ ì‚¶ì˜ ì§€ì¹¨ì€ 'ë‚œ ë‚´ ê°ˆ ê¸¸ì„ ê°„ë‹¤'ì´ë©° ìžì‹ ê³¼ ìžì‹ ì„ ì‚¬ëž‘í•˜ëŠ” ì‚¬ëžŒë“¤ì„ ê°•í•˜ê²Œ ì§€ì¼œë‚¼ ìˆ˜ ìžˆëŠ” ë°©ë²•ì„ ìž˜ ì•Œê³  ìžˆìŠµë‹ˆë‹¤.<br>"
-				+ "ë‹¹ì‹ ì€ ìžì‹ ì´ ì›í•˜ëŠ” ê²ƒê³¼ ê·¸ ê¿ˆì„ ì¶”êµ¬í•˜ëŠ” ê²ƒì— ë‘ë ¤ì›€ì´ ì—†ê³  ë‹¤ë¥¸ ì‚¬ëžŒë“¤ë¡œë¶€í„° ì˜¤ì§ ì •ì§í•¨ë§Œì„ ìš”êµ¬í•˜ë©° ì§„ì‹¤ì„ ë°›ì•„ë“¤ì¼ ìˆ˜ ìžˆì„ ë§Œí¼ ê°•í•œ ì‚¬ëžŒìž…ë‹ˆë‹¤.");
-		tree5.setRecName("ê¸€ë¡ì‹œë‹ˆì•„");
-		tree5.setRecPhoto("rec5_gloxinia.png");
+		tree5.setTreePerson("ÀÚ½Å°¨ ÀÖ°í Ã¥ÀÓ°¨ ÀÖ´Â »ç¶÷");
+		tree5.setTreeDescription("ÀÇÁöÇÏÁö ¾ÊÀ¸·Á´Â ÈûÀÌ ¸Å¿ì °­ÇØ ¸Å¿ì µ¶¸³ÀûÀÎ »ç¶÷ÀÔ´Ï´Ù.<br>"
+				+ "´ç½ÅÀÇ »îÀÇ ÁöÄ§Àº '³­ ³» °¥ ±æÀ» °£´Ù'ÀÌ¸ç ÀÚ½Å°ú ÀÚ½ÅÀ» »ç¶ûÇÏ´Â »ç¶÷µéÀ» °­ÇÏ°Ô ÁöÄÑ³¾ ¼ö ÀÖ´Â ¹æ¹ýÀ» Àß ¾Ë°í ÀÖ½À´Ï´Ù.<br>"
+				+ "´ç½ÅÀº ÀÚ½ÅÀÌ ¿øÇÏ´Â °Í°ú ±× ²ÞÀ» Ãß±¸ÇÏ´Â °Í¿¡ µÎ·Á¿òÀÌ ¾ø°í ´Ù¸¥ »ç¶÷µé·ÎºÎÅÍ ¿ÀÁ÷ Á¤Á÷ÇÔ¸¸À» ¿ä±¸ÇÏ¸ç Áø½ÇÀ» ¹Þ¾ÆµéÀÏ ¼ö ÀÖÀ» ¸¸Å­ °­ÇÑ »ç¶÷ÀÔ´Ï´Ù.");
+		tree5.setRecName("±Û·Ï½Ã´Ï¾Æ");
+		tree5.setRecPhoto("../resources/images/gloxinia.jpg");
 		
 		TestTree tree6 = new TestTree("6", "tree6");
-		tree6.setTreePerson("ìƒëƒ¥í•˜ê³  ë‹¤ë¥¸ ì‚¬ëžŒë“¤ê³¼ ìž˜ ì–´ìš°ëŸ¬ì§€ëŠ” ì‚¬ëžŒ");
-		tree6.setTreeDescription("ì‚¬ëžŒë“¤ì€ ì´ëŸ° ë‹¹ì‹ ê³¼ ë§¤ìš° ëˆëˆí•œ ì¸ì—°ì„ ìœ ì§€í•©ë‹ˆë‹¤. ë§Žì€ ì¹œêµ¬ë“¤ì„ ê°–ê³  ìžˆìœ¼ë©° ê·¸ë“¤ì„ ë•ëŠ” ê²ƒì„ ë§¤ìš° ì¢‹ì•„í•©ë‹ˆë‹¤.<br>"
-				+ "ì´ëŸ° ë”°ëœ»í•¨ê³¼ ë°ì€ ê¸°ìš´ìœ¼ë¡œ ì£¼ìœ„ ì‚¬ëžŒë“¤ì„ ê¸°ë¶„ ì¢‹ê²Œ ë§Œë“¤ì–´ì£¼ë©° ë§¤ì¼ ìžê¸° ìžì‹ ì„ í–¥ìƒì‹œí‚¤ê¸° ìœ„í•´ ë§Žì€ ìƒê°ì„ í•©ë‹ˆë‹¤.<br>"
-				+ "ê´€ì‹¬ì„ ë°›ê³  ì‹¶ì–´í•˜ê³  ëˆ„êµ¬ë³´ë‹¤ ì‚¬ëž‘ë°›ê¸°ë¥¼ ìœˆí•˜ê¸° ë•Œë¬¸ì— ë‹¹ì‹ ì„ ì‚¬ëž‘í•´ì£¼ì§€ ì•ŠëŠ” ì‚¬ëžŒë§ˆì € ë¨¼ì € ì‚¬ëž‘í•´ì¤„ ì¤€ë¹„ê°€ ë˜ì–´ ìžˆìŠµë‹ˆë‹¤.");
-		tree6.setRecName("ë² ê³ ë‹ˆì•„");
-		tree6.setRecPhoto("rec6_begonia.png");
+		tree6.setTreePerson("»ó³ÉÇÏ°í ´Ù¸¥ »ç¶÷µé°ú Àß ¾î¿ì·¯Áö´Â »ç¶÷");
+		tree6.setTreeDescription("»ç¶÷µéÀº ÀÌ·± ´ç½Å°ú ¸Å¿ì ²ö²öÇÑ ÀÎ¿¬À» À¯ÁöÇÕ´Ï´Ù. ¸¹Àº Ä£±¸µéÀ» °®°í ÀÖÀ¸¸ç ±×µéÀ» µ½´Â °ÍÀ» ¸Å¿ì ÁÁ¾ÆÇÕ´Ï´Ù.<br>"
+				+ "ÀÌ·± µû¶æÇÔ°ú ¹àÀº ±â¿îÀ¸·Î ÁÖÀ§ »ç¶÷µéÀ» ±âºÐ ÁÁ°Ô ¸¸µé¾îÁÖ¸ç ¸ÅÀÏ ÀÚ±â ÀÚ½ÅÀ» Çâ»ó½ÃÅ°±â À§ÇØ ¸¹Àº »ý°¢À» ÇÕ´Ï´Ù.<br>"
+				+ "°ü½ÉÀ» ¹Þ°í ½Í¾îÇÏ°í ´©±¸º¸´Ù »ç¶û¹Þ±â¸¦ À©ÇÏ±â ¶§¹®¿¡ ´ç½ÅÀ» »ç¶ûÇØÁÖÁö ¾Ê´Â »ç¶÷¸¶Àú ¸ÕÀú »ç¶ûÇØÁÙ ÁØºñ°¡ µÇ¾î ÀÖ½À´Ï´Ù.");
+		tree6.setRecName("º£°í´Ï¾Æ");
+		tree6.setRecPhoto("../resources/images/begonia.jpg");
 		
 		TestTree tree7 = new TestTree("7", "tree7");
-		tree7.setTreePerson("í–‰ë³µí•˜ê³  í”ë“¤ë¦¼ ì—†ëŠ” ì‚¬ëžŒ");
-		tree7.setTreeDescription("ì´í•´ì‹¬ì´ ë§Žì•„ íƒ€ì¸ì˜ ì¸ì„±ì— ëŒ€í•´ ì‰½ê²Œ íŒë‹¨í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.<br>"
-				+ "ìžì‹ ì˜ ì£¼ë³€ê³¼ ì‚¬íšŒì— ë¶ˆë§Œì´ ë§Žì€ ì‚¬ëžŒë“¤ì˜ ì´ì•¼ê¸°ë¥¼ ìž˜ ë“¤ì–´ì£¼ëŠ” íŽ¸ì´ë©° í•œìª½ì— ì¹˜ìš°ì¹˜ì§€ ì•ŠëŠ” ë°©ë²•ì„ ìž˜ ì•„ëŠ” ì•„ì£¼ ì¢‹ì€ ë¦¬ìŠ¤ë„ˆìž…ë‹ˆë‹¤.<br>"
-				+ "ë‹¹ì‹ ì€ ëª¨ë“  ì‚¬ëžŒë“¤ì´ ê°ìž ì €ë§ˆë‹¤ ì¸ìƒì˜ ê¸¸ì´ ìžˆë‹¤ê³  ìƒê°í•©ë‹ˆë‹¤. ìƒˆë¡œìš´ ì‚¬ëžŒë“¤ì„ ì‚¬ê·€ê±°ë‚˜ ë§Œë‚˜ëŠ” ê²ƒì„ ì£¼ì €í•˜ì§€ ì•Šê¸° ë•Œë¬¸ì— ìƒˆë¡œìš´ ëª¨ìž„ì´ë‚˜ í–‰ì‚¬ì— ì°¸ì—¬í•˜ëŠ” ê²ƒì„ ì¦ê¹ë‹ˆë‹¤.<br>"
-				+ "ìŠ¤íŠ¸ë ˆìŠ¤ë¥¼ ë°›ì§€ ì•Šìœ¼ë ¤ê³  ë…¸ë ¥í•˜ë©° ê±±ì •ì„ ìž˜ í•˜ì§€ ì•ŠëŠ” íŽ¸ìž…ë‹ˆë‹¤. ì‹œê°„ ì¡°ì ˆì„ ìž˜ í•˜ê³  ë§¤ìš° ëŠê¸‹í•  ë¿ë§Œ ì•„ë‹ˆë¼ í•­ìƒ í–‰ë³µí•œ ì‹œê°„ì„ ë³´ë‚´ë ¤ê³  ë…¸ë ¥í•©ë‹ˆë‹¤.");
-		tree7.setRecName("êµ¬ë¦„íŒ¨ëž­ì´ê½ƒ");
-		tree7.setRecPhoto("rec7_cloud.png");
+		tree7.setTreePerson("Çàº¹ÇÏ°í Èçµé¸² ¾ø´Â »ç¶÷");
+		tree7.setTreeDescription("ÀÌÇØ½ÉÀÌ ¸¹¾Æ Å¸ÀÎÀÇ ÀÎ¼º¿¡ ´ëÇØ ½±°Ô ÆÇ´ÜÇÏÁö ¾Ê½À´Ï´Ù.<br>"
+				+ "ÀÚ½ÅÀÇ ÁÖº¯°ú »çÈ¸¿¡ ºÒ¸¸ÀÌ ¸¹Àº »ç¶÷µéÀÇ ÀÌ¾ß±â¸¦ Àß µé¾îÁÖ´Â ÆíÀÌ¸ç ÇÑÂÊ¿¡ Ä¡¿ìÄ¡Áö ¾Ê´Â ¹æ¹ýÀ» Àß ¾Æ´Â ¾ÆÁÖ ÁÁÀº ¸®½º³ÊÀÔ´Ï´Ù.<br>"
+				+ "´ç½ÅÀº ¸ðµç »ç¶÷µéÀÌ °¢ÀÚ Àú¸¶´Ù ÀÎ»ýÀÇ ±æÀÌ ÀÖ´Ù°í »ý°¢ÇÕ´Ï´Ù. »õ·Î¿î »ç¶÷µéÀ» »ç±Í°Å³ª ¸¸³ª´Â °ÍÀ» ÁÖÀúÇÏÁö ¾Ê±â ¶§¹®¿¡ »õ·Î¿î ¸ðÀÓÀÌ³ª Çà»ç¿¡ Âü¿©ÇÏ´Â °ÍÀ» Áñ±é´Ï´Ù.<br>"
+				+ "½ºÆ®·¹½º¸¦ ¹ÞÁö ¾ÊÀ¸·Á°í ³ë·ÂÇÏ¸ç °ÆÁ¤À» Àß ÇÏÁö ¾Ê´Â ÆíÀÔ´Ï´Ù. ½Ã°£ Á¶ÀýÀ» Àß ÇÏ°í ¸Å¿ì ´À±ßÇÒ »Ó¸¸ ¾Æ´Ï¶ó Ç×»ó Çàº¹ÇÑ ½Ã°£À» º¸³»·Á°í ³ë·ÂÇÕ´Ï´Ù.");
+		tree7.setRecName("±¸¸§ÆÐ·©ÀÌ²É");
+		tree7.setRecPhoto("../resources/images/cloud.jpg");
 		
 		TestTree tree8 = new TestTree("8", "tree8");
-		tree8.setTreePerson("ë§¤ë ¥ì ì´ê³  ì—ë„ˆì§€ ë„˜ì¹˜ëŠ” ì‚¬ëžŒ");
-		tree8.setTreeDescription("ëŠ˜ ì£¼ë³€ì— ì‚¬ëžŒì´ ë§Žê³  ì–´ë–»ê²Œ í•˜ë©´ ê·¸ë“¤ì„ ì›ƒê¸¸ ìˆ˜ ìžˆëŠ”ì§€ ìž˜ ì•„ëŠ” ìž¬ë¯¸ìžˆëŠ” ì‚¬ëžŒìž…ë‹ˆë‹¤. ì–´ëŠ ê³³ì—ì„œë„ ì¡°í™”ë¡­ê²Œ ì–´ìš¸ë¦¬ë©° ìžë°œì ì´ê³  ì—´ì •ì ì¸ ì‚¬ëžìž…ë‹ˆë‹¤.<br>"
-				+ "ì„¸ìƒ ì¼ì— ëŒ€í•´ ì ê·¹ì ì´ë©° ëª¨í—˜ì„ ì¦ê¸°ê¸°ë„ í•˜ê³ , ê°€ë” ì‚¬ëžŒë“¤ì„ ë†€ëž˜í‚¤ëŠ” ì¶©ê²©ì ì¸ ê²°ë§ì„ ë§Œë“¤ê¸°ë„ í•˜ì§€ë§Œ ëŠ˜ ìžì‹ ì—ê² ì†”ì§í•˜ë ¤ê³  ë…¸ë ¥í•©ë‹ˆë‹¤.<br>"
-				+ "ëŠì´ì§€ ì•ŠëŠ” í˜¸ê¸°ì‹¬ê³¼ í¥ë¯¸ë¡œìš´ ê²ƒë“¤ì— ëŒ€í•œ ê´€ì‹¬ìœ¼ë¡œ ê½¤ë‚˜ ë§Žì€ ì·¨ë¯¸ë¥¼ ê°€ì§€ê³  ìžˆìœ¼ë©° ê·¸ê²ƒì— ëŒ€í•œ ì§€ì‹ì„ ìŠµë“í•  ë•Œê¹Œì§€ ì‰¬ì§€ ì•Šê³  í–‰ë™í•˜ëŠ” ì‚¬ëžŒìž…ë‹ˆë‹¤.");
-		tree8.setRecName("í”„ë¦¬ì§€ì•„");
-		tree8.setRecPhoto("rec8_freesia.png");
+		tree8.setTreePerson("¸Å·ÂÀûÀÌ°í ¿¡³ÊÁö ³ÑÄ¡´Â »ç¶÷");
+		tree8.setTreeDescription("´Ã ÁÖº¯¿¡ »ç¶÷ÀÌ ¸¹°í ¾î¶»°Ô ÇÏ¸é ±×µéÀ» ¿ô±æ ¼ö ÀÖ´ÂÁö Àß ¾Æ´Â Àç¹ÌÀÖ´Â »ç¶÷ÀÔ´Ï´Ù. ¾î´À °÷¿¡¼­µµ Á¶È­·Ó°Ô ¾î¿ï¸®¸ç ÀÚ¹ßÀûÀÌ°í ¿­Á¤ÀûÀÎ »ç¶øÀÔ´Ï´Ù.<br>"
+				+ "¼¼»ó ÀÏ¿¡ ´ëÇØ Àû±ØÀûÀÌ¸ç ¸ðÇèÀ» Áñ±â±âµµ ÇÏ°í, °¡²û »ç¶÷µéÀ» ³î·¡Å°´Â Ãæ°ÝÀûÀÎ °á¸»À» ¸¸µé±âµµ ÇÏÁö¸¸ ´Ã ÀÚ½Å¿¡°Õ ¼ÖÁ÷ÇÏ·Á°í ³ë·ÂÇÕ´Ï´Ù.<br>"
+				+ "²÷ÀÌÁö ¾Ê´Â È£±â½É°ú Èï¹Ì·Î¿î °Íµé¿¡ ´ëÇÑ °ü½ÉÀ¸·Î ²Ï³ª ¸¹Àº Ãë¹Ì¸¦ °¡Áö°í ÀÖÀ¸¸ç ±×°Í¿¡ ´ëÇÑ Áö½ÄÀ» ½ÀµæÇÒ ¶§±îÁö ½¬Áö ¾Ê°í Çàµ¿ÇÏ´Â »ç¶÷ÀÔ´Ï´Ù.");
+		tree8.setRecName("ÇÁ¸®Áö¾Æ");
+		tree8.setRecPhoto("../resources/images/freesia.jpg");
 		
 		TestTree tree9 = new TestTree("9", "tree9");
-		tree9.setTreePerson("ë‚™ì²œì ì´ê³  ìš´ì´ ì¢‹ì€ ì‚¬ëžŒ");
-		tree9.setTreeDescription("ìžì‹ ì—ê²Œ ìžˆì–´ ì‚¶ì€ ì„ ë¬¼ì´ë¼ê³  ìƒê°í•˜ë©° ê·¸ ì„ ë¬¼ì„ ìµœëŒ€í•œ ì‚¬ìš©í•˜ê¸° ìœ„í•´ ë§Žì€ ë…¸ë ¥ì„ í•©ë‹ˆë‹¤.<br>"
-				+ "ê·¸ë¦¬ê³  ìžì‹ ì˜ ì„±ê³µì‚¬ë¡€ë‚˜ ë‹¬ì„±í•´ ë†“ì€ ê²ƒë“¤ì„ ë§¤ìš° ìžëž‘ìŠ¤ëŸ½ê²Œ ì—¬ê¸°ê³  êµ‰ìž¥í•œ ìžë¶€ì‹¬ì„ ê°€ì§€ê³  ìžˆì–´ìš”.<br>"
-				+ "ì•„ì§ë„ ìˆ˜ë§Žì€ í–‰ìš´ì´ ìžì‹ ì„ ê¸°ë‹¤ë¦¬ê³  ìžˆë‹¤ê³  ìƒê°í•˜ë©° ìžì‹ ì´ í•´ì•¼ í•  ì¼ì— ë¹„í•´ ì¸ìƒì´ ë„ˆë¬´ ì§§ë‹¤ê³  ëŠë¼ëŠ” ì‚¬ëžŒìž…ë‹ˆë‹¤.");
-		tree9.setRecName("ë¬¼í‘¸ë ˆë‚˜ë¬´");
-		tree9.setRecPhoto("rec9_ash.png");
+		tree9.setTreePerson("³«ÃµÀûÀÌ°í ¿îÀÌ ÁÁÀº »ç¶÷");
+		tree9.setTreeDescription("ÀÚ½Å¿¡°Ô ÀÖ¾î »îÀº ¼±¹°ÀÌ¶ó°í »ý°¢ÇÏ¸ç ±× ¼±¹°À» ÃÖ´ëÇÑ »ç¿ëÇÏ±â À§ÇØ ¸¹Àº ³ë·ÂÀ» ÇÕ´Ï´Ù.<br>"
+				+ "±×¸®°í ÀÚ½ÅÀÇ ¼º°ø»ç·Ê³ª ´Þ¼ºÇØ ³õÀº °ÍµéÀ» ¸Å¿ì ÀÚ¶û½º·´°Ô ¿©±â°í ±²ÀåÇÑ ÀÚºÎ½ÉÀ» °¡Áö°í ÀÖ¾î¿ä.<br>"
+				+ "¾ÆÁ÷µµ ¼ö¸¹Àº Çà¿îÀÌ ÀÚ½ÅÀ» ±â´Ù¸®°í ÀÖ´Ù°í »ý°¢ÇÏ¸ç ÀÚ½ÅÀÌ ÇØ¾ß ÇÒ ÀÏ¿¡ ºñÇØ ÀÎ»ýÀÌ ³Ê¹« Âª´Ù°í ´À³¢´Â »ç¶÷ÀÔ´Ï´Ù.");
+		tree9.setRecName("¹°Çª·¹³ª¹«");
+		tree9.setRecPhoto("../resources/images/ash.jpg");
 		
 		treeList.add(tree1);
 		treeList.add(tree2);

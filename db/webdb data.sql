@@ -26,6 +26,15 @@ insert into FLOWER(Fname, F_ID, Birth_Month) values ('크리스마스 로즈', 8
 insert into FLOWER(Fname, F_ID, Birth_Month) values ('프리지아', 9, 0);
 insert into FLOWER(Fname, F_ID, Birth_Month) values ('작약', 10, 0);
 insert into FLOWER(Fname, F_ID, Birth_Month) values ('금전수', 11, 0);
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('꽃향유', 12, 0);
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('금목서', 13, 0);
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('차나무', 14, 0);
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('아마릴리스', 15, 0);
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('양귀비', 16, 0);
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('양귀비', 17, 0);
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('유카', 18, 0);
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('잇꽃', 19, 0);
+insert into FLOWER(Fname, F_ID, Birth_Month) values ('무궁화', 20, 0);
 
 ------------------------------make SEASON-------------------------------------------------
 Insert into SEASON values (0, 1);
@@ -49,6 +58,15 @@ Insert into SEASON values (11, 0);
 Insert into SEASON values (11, 1);
 Insert into SEASON values (11, 2);
 Insert into SEASON values (11, 3);
+Insert into SEASON values (12, 2);//아이디랑, 시즌 (0~3)
+Insert into SEASON values (13, 2);
+Insert into SEASON values (14, 2);
+Insert into SEASON values (15, 3);
+Insert into SEASON values (16, 1);
+Insert into SEASON values (17, 0);
+Insert into SEASON values (18, 1);
+Insert into SEASON values (19, 1);
+Insert into SEASON values (20, 1);
 
 -------------------------- make KEYWORDS ----------------------------------------------
 insert into KEYWORDS values (0, '희망');
@@ -73,6 +91,12 @@ insert into KEYWORDS values (18, '질투');
 insert into KEYWORDS values (19, '최선');
 insert into KEYWORDS values (20, '건강');
 insert into KEYWORDS values (21, '아름다움');
+insert into KEYWORDS values (22, '유혹');
+insert into KEYWORDS values (23, '기억');
+insert into KEYWORDS values (24, '추억');
+insert into KEYWORDS values (25, '신비');
+insert into KEYWORDS values (26, '경고');
+insert into KEYWORDS values (27, '불변');
 
 ------------------------- make USER_INFO ---------------------------------------------
 insert into USER_INFO values ('test', 'test', '김철수', 'M', to_date('1990-05-23','yyyy-mm-dd'), '434123453', '대한민국 대구광역시 북구 대현동 183-3번지', 'test');
@@ -96,7 +120,15 @@ insert into CATEGORIZED values (9, 13, 2); //
 insert into CATEGORIZED values (9, 15, 2); // 
 insert into CATEGORIZED values (10, 13, 5); // 
 insert into CATEGORIZED values (11, 16, 2); // 
-
+insert into CATEGORIZED values (12, 23, 4); // 아이디, 키워드, 색
+insert into CATEGORIZED values (13, 22, 2);
+insert into CATEGORIZED values (14, 24, 6);
+insert into CATEGORIZED values (15, 21, 1);
+insert into CATEGORIZED values (16, 12, 3);
+insert into CATEGORIZED values (17, 21, 1);
+insert into CATEGORIZED values (18, 26, 6);
+insert into CATEGORIZED values (19, 27, 2);
+insert into CATEGORIZED values (20, 21, 5);
 
 --------------------------- make F_DETAIL ----------------------------------------------
 
@@ -113,7 +145,15 @@ insert into F_DETAIL values(8, 5, '근심을 풀어주세요', 'christ.jpg');
 insert into F_DETAIL values(9, 2, '당신의 시작을 응원해', 'freesia.jpg');
 insert into F_DETAIL values(10, 5, '새로운 시작', 'jak.jpg');
 insert into F_DETAIL values(11, 2, '돈을 불러주는 돈나무', 'money.jpg');
-
+insert into F_DETAIL values(12, 4, '가을향기, 과거를 묻지 마세요', 'shinymint.jpg');//아이디, 색, 꽃말, 파일명
+insert into F_DETAIL values(13, 2, '당신의 마음을 끌다', 'osmanthus.jpg');
+insert into F_DETAIL values(14, 6, '추억', 'teaplant.jpg');
+insert into F_DETAIL values(15, 1, '자랑, 수다쟁이, 은은한 아름다움, 인공적, 침묵', 'amaryllis.jpg');
+insert into F_DETAIL values(16, 3, '상상, 몽상', 'poppy_blue.jpg');
+insert into F_DETAIL values(17, 1, '위로', 'poppy_red.jpg');
+insert into F_DETAIL values(18, 6, '위험, 접근하지 마세요', 'yucca.jpg');
+insert into F_DETAIL values(19, 2, '무심, 당신을 물들이다', 'safflower.jpg');
+insert into F_DETAIL values(20, 5, '섬세한 아름다움', 'sharon.jpg');
 
 commit();
 

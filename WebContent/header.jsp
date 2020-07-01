@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,28 +39,28 @@
                             <ul class="navbar-nav">
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                   ÃßÃµ
+                   ì¶”ì²œ
                    <span class="icon-arrow-down"></span>
                  </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="#">»ýÀÏ</a>
-                                        <a class="dropdown-item" href="#">²É¸»</a>
-                                        <a class="dropdown-item" href="#">»óÈ²º°</a>
+                                        <a class="dropdown-item" href="#">ìƒì¼</a>
+                                        <a class="dropdown-item" href="#">ê½ƒë§</a>
+                                        <a class="dropdown-item" href="#">ìƒí™©ë³„</a>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  ½É¸® Å×½ºÆ®
+                  ì‹¬ë¦¬ í…ŒìŠ¤íŠ¸
                   <span class="icon-arrow-down"></span>
                 </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="#">³ª¿Í Àß ¸Â´Â ²ÉÀº?</a>
-                                        <a class="dropdown-item" href="#">¿À´ÃÀÇ ±âºÐ¿¡ ¸Â´Â ²ÉÀº?</a>
+                                        <a class="dropdown-item" href="#">ë‚˜ì™€ ìž˜ ë§žëŠ” ê½ƒì€?</a>
+                                        <a class="dropdown-item" href="#">ì˜¤ëŠ˜ì˜ ê¸°ë¶„ì— ë§žëŠ” ê½ƒì€?</a>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  ¹Ì´Ï°ÔÀÓÇÏ·¯°¡±â
+                  ë¯¸ë‹ˆê²Œìž„í•˜ëŸ¬ê°€ê¸°
                   <span class="icon-arrow-down"></span>
                 </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -73,9 +73,9 @@
                                     <a class="nav-link" href="#">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">·Î±×ÀÎ</a>
+                                    <a class="nav-link" href="#">ë¡œê·¸ì¸</a>
                                 </li>
-                                <li><a href="#" class="btn btn-outline-light top-btn"><span class="ti-plus"></span> È¸¿ø°¡ÀÔ</a></li>
+                                <li><a href="#" class="btn btn-outline-light top-btn"><span class="ti-plus"></span> íšŒì›ê°€ìž…</a></li>
                             </ul>
                         </div>
                     </nav>

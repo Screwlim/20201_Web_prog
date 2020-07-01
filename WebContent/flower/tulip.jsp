@@ -37,7 +37,7 @@
            
             .s {
             font-family: RIDIBatang;
-            width: 706.5px;
+            width: 680px;
             height: 620px;
         }
         .container{
@@ -87,8 +87,8 @@
                 
          <div class="swiper-slide">                 
 		    <div class="container">
-			      <div class="row">
-				        <div class="col-12">
+			      <div class="row justify-content-center">
+                    <div class="col-7"  >
 					          <div class="card">
 						            <div class="card-header">
 						   				<h4>튤립</h4>
@@ -107,8 +107,8 @@
        
        <div class="swiper-slide">
 		    <div class="container">
-			      <div class="row">
-				        <div class="col-12">
+			      <div class="row justify-content-center">
+                    <div class="col-7"  >
 					          <div class="card">
 						            <div class="card-header">
 						   				<h4>리시안셔스</h4>
@@ -126,8 +126,8 @@
         
          <div class="swiper-slide">
 		    <div class="container">
-			      <div class="row">
-				        <div class="col-12">
+			     <div class="row justify-content-center">
+                    <div class="col-7"  >
 					          <div class="card">
 						            <div class="card-header">
 						   				<h4>붉은 장미</h4>

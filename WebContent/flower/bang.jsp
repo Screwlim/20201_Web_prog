@@ -37,13 +37,13 @@
            
  		.s {
             font-family: RIDIBatang;
-            width: 706.5px;
+            width: 680px;
             height: 620px;
         }
         .container{
             font-family: RIDIBatang;
-        	width: 680px;
-            height: 1000px;
+            width: 706.5px;
+            height: 900px;
         }
         .card-header{
              font-family: RIDIBatang;
@@ -86,8 +86,8 @@
                 
          <div class="swiper-slide">                 
 		    <div class="container">
-			      <div class="row">
-				        <div class="col-12">
+			      <div class="row justify-content-center">
+                    <div class="col-7"  >
 					          <div class="card">
 						            <div class="card-header">
 						   				<h4>뱅갈고무나무</h4>
@@ -106,8 +106,8 @@
        
        <div class="swiper-slide">
              <div class="container">
-			      <div class="row">
-				        <div class="col-12">
+			     <div class="row justify-content-center">
+                    <div class="col-7"  >
 					          <div class="card">
 						            <div class="card-header">
 						   				<h4>선인장</h4>
@@ -125,8 +125,8 @@
         
         <div class="swiper-slide">
 		    <div class="container">
-			      <div class="row">
-				        <div class="col-12">
+			      <div class="row justify-content-center">
+                    <div class="col-7"  >
 					          <div class="card">
 						            <div class="card-header">
 						   				<h4>스킨답서스</h4>

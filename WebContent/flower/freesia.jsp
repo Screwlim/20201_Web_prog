@@ -37,7 +37,7 @@
            
             .s {
             font-family: RIDIBatang;
-            width: 706.5px;
+            width: 680px;
             height: 620px;
         }
         .container{
@@ -74,7 +74,7 @@
         </div>
 </section>
     <!--//END RESERVE A SEAT -->
-
+    <!--============================= 내용 ============================-->
 <section class="light-bg booking-details_wrap">
            <div>
         <!-- Swiper -->
@@ -85,8 +85,8 @@
                 
          <div class="swiper-slide">                 
 		    <div class="container">
-			      <div class="row">
-				        <div class="col-12">
+			     <div class="row justify-content-center">
+                    <div class="col-7"  >
 					          <div class="card">
 						            <div class="card-header">
 						   				<h4>프리지아</h4>
@@ -105,8 +105,8 @@
        
        <div class="swiper-slide">
 		    <div class="container">
-			      <div class="row">
-				        <div class="col-12">
+			      <div class="row justify-content-center">
+                    <div class="col-7"  >
 					          <div class="card">
 						            <div class="card-header">
 						   				<h4>작약</h4>

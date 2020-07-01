@@ -37,13 +37,14 @@
            
             .s {
             font-family: RIDIBatang;
-            width: 706.5px;
+            width: 680px;
             height: 620px;
         }
         .container{
             font-family: RIDIBatang;
-           width: 680px;
-            height: 1000px;
+            width: 706.5px;
+            height: 900px;
+            
         }
         .card-header{
              font-family: RIDIBatang;
@@ -52,7 +53,7 @@
         .title{
            font-family: RIDIBatang;
         }
-        
+
     </style>
     
     
@@ -69,7 +70,7 @@
         <div class="title">
                 <div style="text-align:center;">
                 <br><br><br>
-                    <h3>🙋 ♀️친구에게 사랑을 표현하기 위한🙋 ♂️ </h3>
+                    <h3>🙋 친구에게 사랑을 표현하기 위한🙋‍♂️</h3>
                     <h3>2가지의 꽃을 추천 드립니다.</h3>
                     <br><br>
             </div>
@@ -87,8 +88,8 @@
                 
                 <div class="swiper-slide">                 
                          <div class="container">
-               <div class="row">
-                    <div class="col-12">
+               <div class="row justify-content-center">
+                    <div class="col-7"  >
                          <div class="card">
                               <div class="card-header">
                                  <h4>아카시아</h4>
@@ -107,8 +108,8 @@
        
        				<div class="swiper-slide">
                       <div class="container">
-               <div class="row">
-                    <div class="col-12">
+               <div class="row justify-content-center">
+                    <div class="col-7 ">
                          <div class="card">
                               <div class="card-header">
                                  <h4>알스트로메리아</h4>

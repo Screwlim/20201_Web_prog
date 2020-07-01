@@ -8,18 +8,47 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>╫и╦╝ев╫╨ф╝</title>
+<title>Л▀╛К╕╛М┘▄Л┼╓М┼╦</title>
+<style>
+	img {
+		width:200px;
+	}
+</style>
 </head>
 <body>
 	<%
 		String id = request.getParameter("id");
 		TestTree testTree = testTreeDAO.getTestTreeByID(id);
 	%>
-	
-	<div>
-		<h2><%=testTree.getTreeNum() %>╧Ь Ё╙╧╚╦╕ ╪╠ецгя ╢Г╫ею╨ <%=testTree.getTreePerson() %>ют╢о╢ы.</h2>
-		<p><%=testTree.getTreeDescription() %></p>
-	</div>
-	<a href="./testTree.jsp">╢ы╫цго╠Б</a>
+
+	<div class="container-fluid">
+        <div class="row">
+        	<div class="col-md-2"></div>
+ 			<div class="col-md-6 responsive-wrap">
+ 				<div class="row light-bg detail-options-wrap">
+ 					<div class="col-sm-3 col-lg-6 col-xl-3 featured-responsive">
+                        <div class="featured-place-wrap">
+                            <img src="images/<%=testTree.getTreeID()%>.png">
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-lg-3 col-xl-3 featured-responsive">
+                    	<div class="featured-place-wrap">
+	                    	<img src="images/<%=testTree.getRecPhoto() %>">
+                    	</div>
+                    </div>
+ 				</div>
+ 			</div>
+ 			<div>
+ 				<h2><%=testTree.getTreeNum() %>К╡┬ К┌≤К╛╢</h2>
+ 			</div>
+ 			<div>
+ 				К╔╪ Л└═М┐²М∙° К▀╧Л▀═Л²─ <%=testTree.getTreePerson() %>Л·┘К▀┬К▀╓.
+				<p><%=testTree.getTreeDescription() %></p>
+ 			</div>
+ 			<div>
+ 				Л²╢К÷╟ К▀╧Л▀═Л≈░Й╡▄ Л╤■Л╡°М∙≤К┼■ Й╫┐Л²─ "<%=testTree.getRecName() %>"Л·┘К▀┬К▀╓.
+ 			</div>
+        </div>
+    </div>
 </body>
 </html>

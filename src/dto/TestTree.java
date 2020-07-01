@@ -8,7 +8,9 @@ public class TestTree implements Serializable {
 	private String treeID;
 	private String treePerson;
 	private String treeDescription;
-
+	private String recName;
+	private String recPhoto;
+	
 	public TestTree() {
 		super();
 	}
@@ -49,4 +51,21 @@ public class TestTree implements Serializable {
 	public void setTreeDescription(String treeDescription) {
 		this.treeDescription = treeDescription;
 	}
+	
+	public String getRecName() {
+		return recName;
+	}
+	
+	public void setRecName(String recName) {
+		this.recName = recName;
+	}
+	
+	public String getRecPhoto() {
+		return recPhoto;
+	}
+	
+	public void setRecPhoto(String recPhoto) {
+		this.recPhoto = recPhoto;
+	}
+
 }

@@ -60,7 +60,7 @@ Create table User_INFO(
 	Gender varchar2(1),
 	birth_date date,
 	phone_num varchar2(20) not null,
-	address varchar2(100) not null,	
+	address varchar2(100),	
 	Game_status varchar2(10)
 );
 

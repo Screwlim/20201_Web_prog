@@ -155,5 +155,5 @@ insert into F_DETAIL values(18, 6, '위험, 접근하지 마세요', 'yucca.jpg'
 insert into F_DETAIL values(19, 2, '무심, 당신을 물들이다', 'safflower.jpg');
 insert into F_DETAIL values(20, 5, '섬세한 아름다움', 'sharon.jpg');
 
-commit();
+commit;
 

@@ -10,7 +10,6 @@
 <title>대상과 목적별 추천기능</title>
 </head>
 <body>
-	<br><br>
 	  <div id="1" style="text-align:center;" >
 		<%
 			String[] str = new String[2]; 

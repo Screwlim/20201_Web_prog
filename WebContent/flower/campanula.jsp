@@ -30,8 +30,16 @@
     <!-- Magnific Popup CSS -->
     <link rel="stylesheet" href="../resources/css/magnific-popup.css">
     <!-- Main CSS -->
-    <link rel="stylesheet" href="../resources/css/style.css">
-    
+    <link rel="stylesheet" href="../resources/css/style.css">    
+    <!-- jQuery, Bootstrap JS. -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../resources/js/jquery-3.2.1.min.js"></script>
+    <script src="../resources/js/popper.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+    <!-- Magnific popup JS -->
+    <script src="../resources/js/jquery.magnific-popup.js"></script>
+    <!-- Swipper Slider JS -->
+    <script src="../resources/js/swiper.min.js"></script> 
     <style>
     		@font-face { font-family: 'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
            

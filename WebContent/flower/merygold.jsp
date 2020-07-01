@@ -16,28 +16,28 @@
     <!-- Page Title -->
     <title>위로</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
     <!-- Simple line Icon -->
-    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <link rel="stylesheet" href="../resources/css/simple-line-icons.css">
     <!-- Themify Icon -->
-    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="../resources/css/themify-icons.css">
     <!-- Hover Effects -->
-    <link rel="stylesheet" href="css/set1.css">
+    <link rel="stylesheet" href="../resources/css/set1.css">
     <!-- Swipper Slider -->
-    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="../resources/css/swiper.min.css">
     <!-- Magnific Popup CSS -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="../resources/css/magnific-popup.css">
     <!-- Main CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../resources/css/style.css">
     
     <style>
     		@font-face { font-family: 'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
            
             .s {
             font-family: RIDIBatang;
-            width: 647px;
+            width: 706.5px;
             height: 620px;
         }
         .container{
@@ -123,7 +123,16 @@
 </section>
     <!--//END RESERVE A SEAT -->
     <!--============================= 내용 ============================-->
-    <section class="light-bg booking-details_wrap">
+
+<section class="light-bg booking-details_wrap">
+           <div>
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+				
+
+                
+         <div class="swiper-slide">                 
 		    <div class="container">
 			      <div class="row">
 				        <div class="col-12">
@@ -131,7 +140,7 @@
 						            <div class="card-header">
 						   				<h4>메리골드</h4>
 						            </div>
-					            <img class="s" id="mery" src="./resources/images/mery.jpg" alt="메리골드"><br>
+					            <img class="s" id="mery" src="../resources/images/mery.jpg" alt="메리골드"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"반드시 오고야 말 행복"</h5>
 					              <p class="card-text">국화과의 천수국속으로, 높이는 약 30cm입니다. 여름에 개화합니다.</p>
@@ -140,7 +149,10 @@
 				        </div>
 			      </div>
 		    </div>
-		    
+       </div>
+       
+       
+       <div class="swiper-slide">
 		    <div class="container">
 			      <div class="row">
 				        <div class="col-12">
@@ -148,7 +160,7 @@
 						            <div class="card-header">
 						   				<h4>용담</h4>
 						            </div>
-					            <img class="s" id="yong" src="./resources/images/yong.jpg" alt="용담"><br>
+					            <img class="s" id="yong" src="../resources/images/yong.jpg" alt="용담"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"슬픈 그대가 좋아요"</h5>
 					              <p class="card-text">여러해살이풀로 목련강 용담목에 속합니다. 우리나라, 중국 동북부, 일본, 러시아 등지에 분포합니다. 8~10월 개화합니다. </p>
@@ -157,7 +169,9 @@
 				        </div>
 			      </div>
 		    </div>
-		    
+        </div>
+        
+        <div class="swiper-slide">
 		    <div class="container">
 			      <div class="row">
 				        <div class="col-12">
@@ -165,7 +179,7 @@
 						            <div class="card-header">
 						   				<h4>스노우 드롭</h4>
 						            </div>
-					            <img class="s" id="snow" src="./resources/images/snow.jpg" alt="스노우 드롭"><br>
+					            <img class="s" id="snow" src="../resources/images/snow.jpg" alt="스노우 드롭"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"희망"</h5>
 					              <p class="card-text">설강화속 수선화과의 알뿌리 초본 식물로, 대부분 겨울에 춘분니 오기전 개화합니다.</p>
@@ -174,15 +188,17 @@
 				        </div>
 			      </div>
 		    </div>
-		    
-		    <div class="container">
+        </div>
+        
+                <div class="swiper-slide">
+			    <div class="container">
 			      <div class="row">
 				        <div class="col-12">
 					          <div class="card">
 						            <div class="card-header">
 						   				<h4>크리스마스 로즈</h4>
 						            </div>
-					            <img class="s" id="christ" src="images/christ.jpg" alt="크리스마스 로즈"><br>
+					            <img class="s" id="christ" src="../resources/images/christ.jpg" alt="크리스마스 로즈"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"근심을 풀어주세요"</h5>
 					              <p class="card-text">쌍떡잎식물 미나리아재비목 미나리아재비과의 여러해살이풀입니다. 유럽이 원산지입니다.</p>
@@ -191,8 +207,19 @@
 				        </div>
 			      </div>
 		    </div>
+        </div>
+                </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination swiper-pagination-white"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next swiper-button-white"></div>
+            <div class="swiper-button-prev swiper-button-white"></div>
+        </div>
+    </div>
 
-</section>			
+</section>   
+
+		
     <!--//END BOOKING DETAILS -->
     <!--============================= FOOTER =============================-->
     <footer class="main-block dark-bg">
@@ -217,17 +244,17 @@
 
     <!-- jQuery, Bootstrap JS. -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../resources/js/jquery-3.2.1.min.js"></script>
+    <script src="../resources/js/popper.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
     <!-- Magnific popup JS -->
-    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="../resources/js/jquery.magnific-popup.js"></script>
     <!-- Swipper Slider JS -->
-    <script src="js/swiper.min.js"></script>
+    <script src="../resources/js/swiper.min.js"></script>
     <script>
         var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 3,
-            slidesPerGroup: 3,
+            slidesPerView: 1,
+            slidesPerGroup: 1,
             loop: true,
             loopFillGroupWithBlank: true,
             pagination: {

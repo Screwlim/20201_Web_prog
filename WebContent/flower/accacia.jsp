@@ -16,41 +16,41 @@
     <!-- Page Title -->
     <title>친구+우정</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
     <!-- Simple line Icon -->
-    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <link rel="stylesheet" href="../resources/css/simple-line-icons.css">
     <!-- Themify Icon -->
-    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="../resources/css/themify-icons.css">
     <!-- Hover Effects -->
-    <link rel="stylesheet" href="css/set1.css">
+    <link rel="stylesheet" href="../resources/css/set1.css">
     <!-- Swipper Slider -->
-    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="../resources/css/swiper.min.css">
     <!-- Magnific Popup CSS -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="../resources/css/magnific-popup.css">
     <!-- Main CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../resources/css/style.css">
     
     <style>
-    		@font-face { font-family: 'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
+          @font-face { font-family: 'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
            
             .s {
             font-family: RIDIBatang;
-            width: 647px;
+            width: 706.5px;
             height: 620px;
         }
         .container{
             font-family: RIDIBatang;
-        	width: 680px;
+           width: 680px;
             height: 1000px;
         }
         .card-header{
              font-family: RIDIBatang;
-        	 background-color: white;
+            background-color: white;
         }
         .title{
-        	font-family: RIDIBatang;
+           font-family: RIDIBatang;
         }
         
     </style>
@@ -110,12 +110,13 @@
         </div>
     </div>
     <!--//END HEADER -->
+
     <!--============================= 제목 쓸곳,,, =============================-->
     <section class="light-bg booking-details_wrap">
         <div class="title">
                 <div style="text-align:center;">
                 <br><br><br>
-                    <h3>🙋‍♀️친구에게 사랑을 표현하기 위한🙋‍♂️‍</h3>
+                    <h3>🙋 ♀️친구에게 사랑을 표현하기 위한🙋 ♂️ </h3>
                     <h3>2가지의 꽃을 추천 드립니다.</h3>
                     <br><br>
             </div>
@@ -124,41 +125,64 @@
     <!--//END RESERVE A SEAT -->
     <!--============================= 내용 ============================-->
     <section class="light-bg booking-details_wrap">
-		    <div class="container">
-			      <div class="row">
-				        <div class="col-12">
-					          <div class="card">
-						            <div class="card-header">
-						   				<h4>알스트로메리아</h4>
-						            </div>
-					            <img class="s" id="alstro" src="./resources/images/alstro.jpg" alt="알스트로"><br>
-					            <div class="card-body">
-					              <h5 class="card-title">"배려, 우정"</h5>
-					              <p class="card-text">남아메리카를 원산지로 하는 속씨 식물 중 하나입니다. 개화시기는 4월부터 7월까지로, 상당히 오랫동안 피어있습니다.</p>
-					            </div>
-					          </div>
-				        </div>
-			      </div>
-		    </div>
-		    
-		    <div class="container">
-			      <div class="row">
-				        <div class="col-12">
-					          <div class="card">
-						            <div class="card-header">
-						   				<h4>아카시아</h4>
-						            </div>
-					            <img class="s" id="accacia" src="./resources/images/accacia.jpg" alt="아카시아"><br>
-					            <div class="card-body">
-					              <h5 class="card-title">"우정"</h5>
-					              <p class="card-text">꽃은 흰색이고 강한 향기가 나며 먹을 수 있습니다. 꽃이 여러개가 모여 꽃대에 주렁 주렁 자라는데, 이 길이가 8~20cm 정도 입니다.</p>
-					            </div>
-					          </div>
-				        </div>
-			      </div>
-		    </div>
+           <div>
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+				
 
-</section>			
+                
+                <div class="swiper-slide">                 
+                         <div class="container">
+               <div class="row">
+                    <div class="col-12">
+                         <div class="card">
+                              <div class="card-header">
+                                 <h4>아카시아</h4>
+                              </div>
+                           <img class="s" id="accacia" src="../resources/images/accacia.jpg" alt="아카시아"><br>
+                           <div class="card-body">
+                             <h5 class="card-title">"우정"</h5>
+                             <p class="card-text">꽃은 흰색이고 강한 향기가 나며 먹을 수 있습니다. 꽃이 여러개가 모여 꽃대에 주렁 주렁 자라는데, 이 길이가 8~20cm 정도 입니다.</p>
+                           </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+       </div>
+       
+       
+       				<div class="swiper-slide">
+                      <div class="container">
+               <div class="row">
+                    <div class="col-12">
+                         <div class="card">
+                              <div class="card-header">
+                                 <h4>알스트로메리아</h4>
+                              </div>
+                           <img class="s" id="alstro" src="../resources/images/alstro.jpg" alt="알스트로"><br>
+                           <div class="card-body">
+                             <h5 class="card-title">"배려, 우정"</h5>
+                             <p class="card-text">남아메리카를 원산지로 하는 속씨 식물 중 하나입니다. 개화시기는 4월부터 7월까지로, 상당히 오랫동안 피어있습니다.</p>
+                           </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+                </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination swiper-pagination-white"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next swiper-button-white"></div>
+            <div class="swiper-button-prev swiper-button-white"></div>
+        </div>
+    </div>
+
+</section>   
+
+
+    
+      
     <!--//END BOOKING DETAILS -->
     <!--============================= FOOTER =============================-->
     <footer class="main-block dark-bg">
@@ -183,17 +207,17 @@
 
     <!-- jQuery, Bootstrap JS. -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../resources/js/jquery-3.2.1.min.js"></script>
+    <script src="../resources/js/popper.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
     <!-- Magnific popup JS -->
-    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="../resources/js/jquery.magnific-popup.js"></script>
     <!-- Swipper Slider JS -->
-    <script src="js/swiper.min.js"></script>
+    <script src="../resources/js/swiper.min.js"></script>
     <script>
         var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 3,
-            slidesPerGroup: 3,
+            slidesPerView: 1,
+            slidesPerGroup: 1,
             loop: true,
             loopFillGroupWithBlank: true,
             pagination: {

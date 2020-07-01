@@ -16,28 +16,28 @@
     <!-- Page Title -->
     <title>입학+졸업</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
     <!-- Simple line Icon -->
-    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <link rel="stylesheet" href="../resources/css/simple-line-icons.css">
     <!-- Themify Icon -->
-    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="../resources/css/themify-icons.css">
     <!-- Hover Effects -->
-    <link rel="stylesheet" href="css/set1.css">
+    <link rel="stylesheet" href="../resources/css/set1.css">
     <!-- Swipper Slider -->
-    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="../resources/css/swiper.min.css">
     <!-- Magnific Popup CSS -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="../resources/css/magnific-popup.css">
     <!-- Main CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../resources/css/style.css">
     
     <style>
     		@font-face { font-family: 'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
            
             .s {
             font-family: RIDIBatang;
-            width: 647px;
+            width: 706.5px;
             height: 620px;
         }
         .container{
@@ -131,7 +131,7 @@
 						            <div class="card-header">
 						   				<h4>프리지아</h4>
 						            </div>
-					            <img class="s" id="freesia" src="./resources/images/freesia.jpg" alt="프리지아"><br>
+					            <img class="s" id="freesia" src="../resources/images/freesia.jpg" alt="프리지아"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"당신의 시작을 응원해"</h5>
 					              <p class="card-text">붓꽃과에 속하는 여러해살이풀이며, 원산지는 남아프리카로 관상용으로 재배되고 있습니다.</p>
@@ -148,7 +148,7 @@
 						            <div class="card-header">
 						   				<h4>작약</h4>
 						            </div>
-					            <img class="s" id="jak" src="./resources/images/jak.jpg" alt="작약"><br>
+					            <img class="s" id="jak" src="../resources/images/jak.jpg" alt="작약"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"새로운 시작"</h5>
 					              <p class="card-text">작약과의 여러해살이풀로, 보통은 초여름, 이르면 5월경에 꽃이 피어나는데 꽃의 크기가 상당히 크고 향기가 진합니다.</p>
@@ -158,7 +158,67 @@
 			      </div>
 		    </div>
 
-</section>			
+</section>	
+
+<section class="light-bg booking-details_wrap">
+           <div>
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+				
+
+                
+         <div class="swiper-slide">                 
+		    <div class="container">
+			      <div class="row">
+				        <div class="col-12">
+					          <div class="card">
+						            <div class="card-header">
+						   				<h4>프리지아</h4>
+						            </div>
+					            <img class="s" id="freesia" src="../resources/images/freesia.jpg" alt="프리지아"><br>
+					            <div class="card-body">
+					              <h5 class="card-title">"당신의 시작을 응원해"</h5>
+					              <p class="card-text">붓꽃과에 속하는 여러해살이풀이며, 원산지는 남아프리카로 관상용으로 재배되고 있습니다.</p>
+					            </div>
+					          </div>
+				        </div>
+			      </div>
+		    </div>
+       </div>
+       
+       
+       <div class="swiper-slide">
+		    <div class="container">
+			      <div class="row">
+				        <div class="col-12">
+					          <div class="card">
+						            <div class="card-header">
+						   				<h4>작약</h4>
+						            </div>
+					            <img class="s" id="jak" src="../resources/images/jak.jpg" alt="작약"><br>
+					            <div class="card-body">
+					              <h5 class="card-title">"새로운 시작"</h5>
+					              <p class="card-text">작약과의 여러해살이풀로, 보통은 초여름, 이르면 5월경에 꽃이 피어나는데 꽃의 크기가 상당히 크고 향기가 진합니다.</p>
+					            </div>
+					          </div>
+				        </div>
+			      </div>
+		    </div>
+        </div>
+
+                </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination swiper-pagination-white"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next swiper-button-white"></div>
+            <div class="swiper-button-prev swiper-button-white"></div>
+        </div>
+    </div>
+
+</section>   
+
+		
     <!--//END BOOKING DETAILS -->
     <!--============================= FOOTER =============================-->
     <footer class="main-block dark-bg">
@@ -183,17 +243,17 @@
 
     <!-- jQuery, Bootstrap JS. -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../resources/js/jquery-3.2.1.min.js"></script>
+    <script src="../resources/js/popper.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
     <!-- Magnific popup JS -->
-    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="../resources/js/jquery.magnific-popup.js"></script>
     <!-- Swipper Slider JS -->
-    <script src="js/swiper.min.js"></script>
+    <script src="../resources/js/swiper.min.js"></script>
     <script>
         var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 3,
-            slidesPerGroup: 3,
+            slidesPerView: 1,
+            slidesPerGroup: 1,
             loop: true,
             loopFillGroupWithBlank: true,
             pagination: {

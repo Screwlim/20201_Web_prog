@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+    pageEncoding="UTF-8"%>
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="dto.Game" %>
 <jsp:useBean id="gameDAO" class="dao.GameResult" scope="session" />
@@ -7,10 +7,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
-<title>Insert title here</title>
+    <!-- Required meta tags -->
+    <meta charset="UTF-16">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Colorlib">
+    <meta name="description" content="#">
+    <meta name="keywords" content="#">
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="#">
+    <!-- Page Title -->
+    <title>Listing &amp; Directory Website Template</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
+    <!-- Simple line Icon -->
+    <link rel="stylesheet" href="../resources/css/simple-line-icons.css">
+    <!-- Themify Icon -->
+    <link rel="stylesheet" href="../resources/css/themify-icons.css">
+    <!-- Hover Effects -->
+    <link rel="stylesheet" href="../resources/css/set1.css">
+    <!-- Swipper Slider -->
+    <link rel="stylesheet" href="../resources/css/swiper.min.css">
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="../resources/css/magnific-popup.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../resources/css/style.css">   
+    <style>
+    	img {
+    		height:200px;
+    	}
+    </style>
 </head>
-<body>
+
+<body align="center">
 <%
 	ArrayList<Game> gameResults = gameDAO.getAllTests();
 	request.setCharacterEncoding("utf-8");
@@ -24,29 +55,35 @@
 	id1 = Integer.parseInt(ground);
 	id2 = Integer.parseInt(color);
 	id3 = Integer.parseInt(season);
+	
+	int id0 = id1 + id2 + id3;
 
-	Game result = gameResults.get(id1+id2+id3);
+	Game result = gameResults.get(id0);
 	%>
-	<p>
-		<%=ground %>, <%=color %>, <%=season %>
-	</p>
-	<p>
-		<%=id1 %>, <%=id2 %>, <%=id3 %>
-	</p>
-	<p>
-		<%=result.getGround() %>, <%=result.getColor() %>, <%=result.getSeason() %>ÀÌ¹Ç·Î<br>
-		<%
-		if (id1==0 && id2==12 && id3==3) {
-		%>		
-		ÀÌ·±! ²ÉÀÌ ÇÇÁö ¾Ê¾Ò±º¿ä¤Ì¤Ì
+	
+	<div class="story0 booking-checkbox_wrap">
+        <div class="booking-checkbox" align="center">
+        <%
+			if (id0 == 5 || id0 == 7 || id0 == 14 || id0 == 15 || id0 == 27) {
+        %>
+	        <div>
+				<img src="./images/dead.jpg">
+			</div>
+			<br>
+			<div>ì´ëŸ°! ì‹ë¬¼ì´ ì£½ì—ˆì–´ìš”ã…œã…œ</div>
 		<%
 			}
-		else {
+			else {
 		%>
-		°á°ú´Â "<%=result.getResult() %>"ÀÔ´Ï´Ù.
+			<div>
+				<img src="<%=result.getImage() %>">
+			</div>
+			<br>
+			<div>ì§ ! "<%=result.getResult() %>"ì…ë‹ˆë‹¤. ë‹¹ì‹ ì˜ ê½ƒì´ì˜ˆìš”!</div>
 		<%
-		}
+			}
 		%>
-	</p>
+		</div>
+    </div>
 </body>
 </html>

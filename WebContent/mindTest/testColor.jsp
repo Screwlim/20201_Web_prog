@@ -50,33 +50,33 @@
             <div class="swiper-wrapper">
 
                 <div class="swiper-slide">
-                    <a href="../resources/images/reserve-slide2.jpg" class="grid image-link">
-                        <img src="../resources/images/reserve-slide2.jpg" class="img-fluid" alt="#">
+                    <a href="../resources/images/swipe_flower2.jpg" class="grid image-link">
+                        <img src="../resources/images/swipe_flower2.jpg" class="img-fluid" alt="#">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="../resources/images/reserve-slide1.jpg" class="grid image-link">
-                        <img src="../resources/images/reserve-slide1.jpg" class="img-fluid" alt="#">
+                    <a href="../resources/images/swipe_flower1.jpg" class="grid image-link">
+                        <img src="../resources/images/swipe_flower1.jpg" class="img-fluid" alt="#">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="../resources/images/reserve-slide3.jpg" class="grid image-link">
-                        <img src="../resources/images/reserve-slide3.jpg" class="img-fluid" alt="#">
+                    <a href="../resources/images/swipe_flower3.jpg" class="grid image-link">
+                        <img src="../resources/images/swipe_flower3.jpg" class="img-fluid" alt="#">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="../resources/images/reserve-slide1.jpg" class="grid image-link">
-                        <img src="../resources/images/reserve-slide1.jpg" class="img-fluid" alt="#">
+                    <a href="../resources/images/swipe_flower1.jpg" class="grid image-link">
+                        <img src="../resources/images/swipe_flower1.jpg" class="img-fluid" alt="#">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="../resources/images/reserve-slide2.jpg" class="grid image-link">
-                        <img src="../resources/images/reserve-slide2.jpg" class="img-fluid" alt="#">
+                    <a href="../resources/images/swipe_flower2.jpg" class="grid image-link">
+                        <img src="../resources/images/swipe_flower2.jpg" class="img-fluid" alt="#">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="../resources/images/reserve-slide3.jpg" class="grid image-link">
-                        <img src="../resources/images/reserve-slide3.jpg" class="img-fluid" alt="#">
+                    <a href="../resources/images/swipe_flower3.jpg" class="grid image-link">
+                        <img src="../resources/images/swipe_flower3.jpg" class="img-fluid" alt="#">
                     </a>
                 </div>
             </div>

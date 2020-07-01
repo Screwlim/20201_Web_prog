@@ -26,7 +26,7 @@
  				<div class="row light-bg detail-options-wrap">
                     <div class="col-sm-3 col-lg-3 col-xl-3 featured-responsive">
                     	<div class="featured-place-wrap">
-	                    	<img src="images/<%=testColor.getRecPhoto() %>">
+	                    	<img src="<%=testColor.getRecPhoto() %>">
                     	</div>
                     </div>
  				</div>
@@ -39,7 +39,7 @@
 				<p><%=testColor.getColorDescription() %></p>
  			</div>
  			<div>
- 				이런 당신에게 추천하는 꽃은 "<%=testColor.getRecName() %>"입니다.
+ 				이런 당신에게 추천하는 식물은 <strong>"<%=testColor.getRecName() %>"</strong>입니다.
  			</div>
         </div>
     </div>

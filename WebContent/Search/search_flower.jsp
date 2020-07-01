@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<%@ page contentType="text/html; charset=utf-8"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
 <!-- 추가 -->
 <html lang="ko">
 
@@ -30,6 +30,29 @@
 <link rel="stylesheet" href="../resources/css/set1.css">
 <!-- Main CSS -->
 <link rel="stylesheet" href="../resources/css/style.css">
+ <style>
+    		@font-face { font-family: 'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
+           
+            .s {
+            font-family: RIDIBatang;
+            width: 647px;
+            height: 620px;
+        }
+        .container{
+            font-family: RIDIBatang;
+        	width: 680px;
+            height: 1000px;
+        }
+        .card-header{
+             font-family: RIDIBatang;
+        	 background-color: white;
+        }
+        .title{
+        	font-family: RIDIBatang;
+        }
+        
+    </style>
+    
 </head>
 
 <body>
@@ -39,20 +62,21 @@
 	<!--============================= DETAIL =============================-->
 
 	<section>
-		<div class="container-fluid">
+		<div class="container-fluid card-header">
 
 			<!-- sql문 파라미터로 넘어갈 form 값들 -->
-			<form action="#" name="options" method="post">
+			<form action="SearchByOptions.do" name="options" method="post">
 
 				<div class="col-md-12 responsive-wrap">
 					<!-- 검색 버튼  -->
-					<div class="row detail-filter-wrap">
-						<div class="col-md-8 featured-responsive">
-							<input type="text" placeholder="꽃말로 검색" class="btn-group1" name = "search_name"
-								style="width: 100%; text-align: center">
+					<div class="row detail-filter-wrap ">
+						<div class="col-md-3 featured-responseive"></div>
+						<div class="col-md-5 featured-responsive">
+							<input type="text" style="border : 2px solid pink; border-radius : 5px; width: 100%; text-align: center; color: black; font-size : 20px" placeholder="꽃 이름으로 검색하기" class="btn-group1 card-header"
+								name="search_name">
 						</div>
 						<div class="col-md-4 featured-responsive">
-							<button type="submit" class="btn-form">
+							<button type="submit" class="btn-form center-block">
 								<span class="icon-magnifier search-icon"></span>검색
 							</button>
 						</div>
@@ -61,7 +85,7 @@
 
 				<!-- 검색 버튼  -->
 				<!-- 체크 박스 -->
-
+				<!-- 
 				<div class="row detail-checkbox-wrap">
 					<div class="col-sm-12 col-lg-4 col-xl-3">
 
@@ -168,69 +192,62 @@
 						</label>
 
 					</div>
+				</div> -->
+				<p></p><br>
+				<div class="mb-8 pb-4">
+					<div class="container-fluid col-md-4">
+						<div class="btn-group-toggle centor-block" data-toggle="buttons">
+							<label class="btn btn-outline-danger btn-lg"> <input name="color" value="1"
+								type="checkbox"> 빨강
+							</label> <label class="btn btn-outline-warning btn-lg"> <input name="color" value="2"
+								type="checkbox"> 노랑
+							</label> <label class="btn btn-outline-info btn-lg"> <input name="color" value="3"
+								type="checkbox"> 파랑
+							</label> <label class="btn btn-outline-primary btn-lg"> <input name="color" value="4"
+								type="checkbox"> 보라
+							</label> <label class="btn btn-outline-danger	 btn-lg"> <input name="color" value="5"
+								type="checkbox"> 분홍
+							</label> <label class="btn btn-outline-info btn-lg"> <input name="color" value="6"
+								type="checkbox"> 하양
+							</label> <label class="btn btn-outline-warning btn-lg"> <input name="color" value="7"
+								type="checkbox"> 주황
+							</label>
+						</div>
+					</div>
 				</div>
-			</form>
-			<!-- 검색 버튼  END -->
-			<!-- sql문 파라미터로 넘어갈 form 값들 -->
-			<%
-				String[] season_param = request.getParameterValues("season");
-				if (season_param == null) {
-
-				} else {
-					for (String val : season_param) {
-						out.println(val + "<br>");
-					}
-				}
-			%>
-			<jsp:include page="test.jsp" flush="false"/>
+				<div class="mb-8 pb-2">
+					<div class="container-fluid col-md-3">
+						<div class="btn-group-toggle center-block" data-toggle="buttons">
+							<label class="btn btn-outline-success btn-lg"> <input name="season" value="0"
+								type="checkbox"> 봄
+							</label> <label class="btn btn-outline-danger btn-lg"> <input name="season" value="0"
+								type="checkbox"> 여름
+							</label> <label class="btn btn-outline-warning btn-lg"> <input name="season" value="0"
+								type="checkbox"> 가을
+							</label> <label class="btn btn-outline-info btn-lg"> <input name="season" value="0"
+								type="checkbox"> 겨울
+							</label>
+						</div>
+					</div>
+				</div>
+		</div>
+		</form>
+		<!-- 검색 버튼  END -->
+		<!-- sql문 파라미터로 넘어갈 form 값들 -->
+		</div>
 	</section>
-
+	<jsp:include page="search_result.jsp" flush="false" />
 
 	<!--//END DETAIL -->
 	<!--============================= FOOTER =============================-->
 	<%@ include file="../footer.jsp"%>
 	<!--//END FOOTER -->
 
-
-
-
 	<!-- jQuery, Bootstrap JS. -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="../resources/js/jquery-3.2.1.min.js"></script>
 	<script src="../resources/js/popper.min.js"></script>
 	<script src="../resources/js/bootstrap.min.js"></script>
-
-
-	<script>
-		$(".map-icon").click(function() {
-			$(".map-fix").toggle();
-		});
-	</script>
-	<script>
-		// Want to customize colors? go to snazzymaps.com
-		function myMap() {
-			var maplat = $('#map').data('lat');
-			var maplon = $('#map').data('lon');
-			var mapzoom = $('#map').data('zoom');
-			// Styles a map in night mode.
-			var map = new google.maps.Map(document.getElementById('map'), {
-				center : {
-					lat : maplat,
-					lng : maplon
-				},
-				zoom : mapzoom,
-				scrollwheel : false
-			});
-			var marker = new google.maps.Marker({
-				position : {
-					lat : maplat,
-					lng : maplon
-				},
-				map : map,
-				title : 'We are here!'
-			});
-		}
-	</script>
 
 
 </body>

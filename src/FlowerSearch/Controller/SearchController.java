@@ -20,6 +20,7 @@ public final class SearchController extends HttpServlet {
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		//super.doGet(request, response);
+		doPost(request,response);
 	}
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response) 
@@ -29,24 +30,63 @@ public final class SearchController extends HttpServlet {
 		String command = RequestURI.substring(contextPath.length());
 		response.setContentType("text/html; charset=utf-8");
 		request.setCharacterEncoding("utf-8");
+		System.out.println("here");
 		if(command.equals("/Search/SearchByOptions.do")) {
 			requestSearchByOptions(request);
 			RequestDispatcher rd = request.getRequestDispatcher("search_flower.jsp");
 			rd.forward(request, response);
+		}else if(command.equals("/Search/SearchByKeyword.do")) {
+			System.out.println("in search by keyword");
+			requestSearchByKeyword(request);
+			RequestDispatcher rd = request.getRequestDispatcher("search_flang.jsp");
+			rd.forward(request,response);
+			
+		}else if(command.equals("/Search/SearchByFlang.do")) {
+			System.out.println("in search by falng");
+			requestSearchByFlang(request);
+			RequestDispatcher rd = request.getRequestDispatcher("search_flang.jsp");
+			rd.forward(request,response);
 		}
-		System.out.println(command);
 	};
 
 	public void requestSearchByOptions(HttpServletRequest request) {
 		FlowerDAO dao = FlowerDAO.getInstnace();
 		List<FlowerDTO> flowerlist = new ArrayList<FlowerDTO>();
 		
+		System.out.println("search by option !");
 		//request로 부터 파라미터 값 받아오기
 		String[] season_param = request.getParameterValues("season");
 		String[] color_param = request.getParameterValues("color");
-		String search_name = String.valueOf(request.getAttribute("search_name"));
+		String search_name = request.getParameter("search_name");
 		flowerlist = dao.serachByOptions(search_name, season_param, color_param);
-		System.out.println(flowerlist);
 		request.setAttribute("SearchResult", flowerlist);
+		request.setAttribute("type", 0);
+	}
+	
+	public void requestSearchByKeyword(HttpServletRequest request) {
+		FlowerDAO dao = FlowerDAO.getInstnace();
+		List<FlowerDTO> flowerlist = new ArrayList<FlowerDTO>();
+		
+		//request로 부터 파라미터 값 받아오기
+		System.out.println("----------------------");
+		System.out.println("request here!");
+		String[] keyword_param= request.getParameterValues("keyword");
+		System.out.println(keyword_param);
+		flowerlist = dao.serachByKeyword(keyword_param);
+		request.setAttribute("SearchResult", flowerlist);
+		request.setAttribute("type", 1);
+		System.out.println("----------------------");
+	}
+	
+	public void requestSearchByFlang(HttpServletRequest request) {
+		FlowerDAO dao = FlowerDAO.getInstnace();
+		List<FlowerDTO> flowerlist = new ArrayList<FlowerDTO>();
+		
+		
+		//request로 부터 파라미터 값 받아오기
+		String search_flang = request.getParameter("search_flang");
+		flowerlist = dao.serachByFlang(search_flang);
+		request.setAttribute("SearchResult", flowerlist);
+		request.setAttribute("type", 2);
 	}
 }

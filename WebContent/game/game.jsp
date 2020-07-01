@@ -30,6 +30,28 @@
     <link rel="stylesheet" href="../resources/css/magnific-popup.css">
     <!-- Main CSS -->
     <link rel="stylesheet" href="../resources/css/style.css">   
+<!-- jQuery, Bootstrap JS. -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../resources/js/jquery-3.2.1.min.js"></script>
+    <script src="../resources/js/popper.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+
+    <script>
+        $(window).scroll(function() {
+            // 100 = The point you would like to fade the nav in.
+
+            if ($(window).scrollTop() > 100) {
+
+                $('.fixed').addClass('is-sticky');
+
+            } else {
+
+                $('.fixed').removeClass('is-sticky');
+
+            };
+        });
+    </script>    
+    
 </head>
 
 <body>

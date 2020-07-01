@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="dto.TestTree" %>
 <jsp:useBean id="testTreeDAO" class="dao.TestTreeList" scope="session" />
@@ -7,8 +7,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
-<title>╫и╦╝ев╫╨ф╝</title>
+<meta charset="UTF-8">
+<title>Л▀╛К╕╛М┘▄Л┼╓М┼╦</title>
 <style>
 	img {
 		width:200px;
@@ -33,14 +33,14 @@
  				</div>
  			</div>
  			<div>
- 				<h2><%=testTree.getTreeNum() %>╧Ь Ё╙╧╚</h2>
+ 				<h2><%=testTree.getTreeNum() %>К╡┬ К┌≤К╛╢</h2>
  			</div>
  			<div>
- 				╦╕ ╪╠ецгя ╢Г╫ею╨ <%=testTree.getTreePerson() %>ют╢о╢ы.
+ 				К╔╪ Л└═М┐²М∙° К▀╧Л▀═Л²─ <%=testTree.getTreePerson() %>Л·┘К▀┬К▀╓.
 				<p><%=testTree.getTreeDescription() %></p>
  			</div>
  			<div>
- 				юл╥╠ ╢Г╫е©║╟т цъц╣го╢б ╫д╧╟ю╨ <strong>"<%=testTree.getRecName() %>"</strong>ют╢о╢ы.
+ 				Л²╢К÷╟ К▀╧Л▀═Л≈░Й╡▄ Л╤■Л╡°М∙≤К┼■ Л▀²К╛╪Л²─ <strong>"<%=testTree.getRecName() %>"</strong>Л·┘К▀┬К▀╓.
  			</div>
         </div>
     </div>

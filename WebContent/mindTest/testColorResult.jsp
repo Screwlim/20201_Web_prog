@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="dto.TestColor" %>
 <jsp:useBean id="testColorDAO" class="dao.TestColorList" scope="session" />
@@ -7,8 +7,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
-<title>╫и╦╝ев╫╨ф╝</title>
+<meta charset="UTF-8">
+<title>Л▀╛К╕╛М┘▄Л┼╓М┼╦</title>
 <style>
 	img {
 		width:200px;
@@ -32,14 +32,14 @@
  				</div>
  			</div>
  			<div>
- 				<h2><%=testColor.getColorNum() %>╧Ь ╫д╧╟юг ╩Ж</h2>
+ 				<h2><%=testColor.getColorNum() %>К╡┬ Л▀²К╛╪Л²≤ Л┐┴</h2>
  			</div>
  			<div>
- 				ю╩ ╪╠ецгя ╢Г╫ею╨ <%=testColor.getColorPerson() %>ют╢о╢ы.
+ 				Л²└ Л└═М┐²М∙° К▀╧Л▀═Л²─ <%=testColor.getColorPerson() %>Л·┘К▀┬К▀╓.
 				<p><%=testColor.getColorDescription() %></p>
  			</div>
  			<div>
- 				юл╥╠ ╢Г╫е©║╟т цъц╣го╢б ╫д╧╟ю╨ <strong>"<%=testColor.getRecName() %>"</strong>ют╢о╢ы.
+ 				Л²╢К÷╟ К▀╧Л▀═Л≈░Й╡▄ Л╤■Л╡°М∙≤К┼■ Л▀²К╛╪Л²─ <strong>"<%=testColor.getRecName() %>"</strong>Л·┘К▀┬К▀╓.
  			</div>
         </div>
     </div>

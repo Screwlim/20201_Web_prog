@@ -74,43 +74,6 @@
         </div>
 </section>
     <!--//END RESERVE A SEAT -->
-    <!--============================= 내용 ============================-->
-    <section class="light-bg booking-details_wrap">
-		    <div class="container">
-			      <div class="row">
-				        <div class="col-12">
-					          <div class="card">
-						            <div class="card-header">
-						   				<h4>프리지아</h4>
-						            </div>
-					            <img class="s" id="freesia" src="../resources/images/freesia.jpg" alt="프리지아"><br>
-					            <div class="card-body">
-					              <h5 class="card-title">"당신의 시작을 응원해"</h5>
-					              <p class="card-text">붓꽃과에 속하는 여러해살이풀이며, 원산지는 남아프리카로 관상용으로 재배되고 있습니다.</p>
-					            </div>
-					          </div>
-				        </div>
-			      </div>
-		    </div>
-		    
-		    <div class="container">
-			      <div class="row">
-				        <div class="col-12">
-					          <div class="card">
-						            <div class="card-header">
-						   				<h4>작약</h4>
-						            </div>
-					            <img class="s" id="jak" src="../resources/images/jak.jpg" alt="작약"><br>
-					            <div class="card-body">
-					              <h5 class="card-title">"새로운 시작"</h5>
-					              <p class="card-text">작약과의 여러해살이풀로, 보통은 초여름, 이르면 5월경에 꽃이 피어나는데 꽃의 크기가 상당히 크고 향기가 진합니다.</p>
-					            </div>
-					          </div>
-				        </div>
-			      </div>
-		    </div>
-
-</section>	
 
 <section class="light-bg booking-details_wrap">
            <div>

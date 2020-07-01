@@ -13,17 +13,38 @@
     <!-- Page Title -->
     <title>TenTen : Find your flower</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/resources/css/bootstrap.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
     <!-- Simple line Icon -->
-    <link rel="stylesheet" href="./resources/css/simple-line-icons.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/resources/css/simple-line-icons.css">
     <!-- Themify Icon -->
-    <link rel="stylesheet" href="./resources/css/themify-icons.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/resources/css/themify-icons.css">
     <!-- Hover Effects -->
-    <link rel="stylesheet" href="./resources/css/set1.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/resources/css/set1.css">
     <!-- Main CSS -->
-    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/resources/css/style.css">
+     <!-- jQuery, Bootstrap JS. -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="<%=request.getContextPath()%>/resources/js/jquery-3.2.1.min.js"></script>
+    <script src="<%=request.getContextPath()%>/resources/js/popper.min.js"></script>
+    <script src="<%=request.getContextPath()%>/resources/js/bootstrap.min.js"></script>
+
+    <script>
+        $(window).scroll(function() {
+            // 100 = The point you would like to fade the nav in.
+
+            if ($(window).scrollTop() > 100) {
+
+                $('.fixed').addClass('is-sticky');
+
+            } else {
+
+                $('.fixed').removeClass('is-sticky');
+
+            };
+        });
+    </script>   
 </head>
 <body>
     <div class="dark-bg sticky-top">
@@ -31,7 +52,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="index.html">TenTen</a>
+                        <a class="navbar-brand" href="<%=request.getContextPath()%>/index.html">TenTen</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="icon-menu"></span>
             </button>
@@ -39,41 +60,38 @@
                             <ul class="navbar-nav">
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                   추천
+                   꽃 검색하기
                    <span class="icon-arrow-down"></span>
                  </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="#">생일</a>
-                                        <a class="dropdown-item" href="#">꽃말</a>
-                                        <a class="dropdown-item" href="#">상황별</a>
+                                        <a class="dropdown-item" href="<%=request.getContextPath()%>/Search/search_flang.jsp">꽃말</a>
+                                        <a class="dropdown-item" href="<%=request.getContextPath()%>/Search/search_flower.jsp">꽃 이름</a>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  심리 테스트
+                  꽃 추천
                   <span class="icon-arrow-down"></span>
                 </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="#">나와 잘 맞는 꽃은?</a>
-                                        <a class="dropdown-item" href="#">오늘의 기분에 맞는 꽃은?</a>
+                                        <a class="dropdown-item" href="<%=request.getContextPath()%>/flower/choice.jsp">이런 상황? 어떤 꽃?</a>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  미니게임하러가기
+                  Entertainments
                   <span class="icon-arrow-down"></span>
                 </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <a class="dropdown-item" href="<%=request.getContextPath()%>/game/game.jsp">미니게임</a>
+                                        <a class="dropdown-item" href="<%=request.getContextPath()%>/mindTest/mindTest.jsp">심리 테스트</a>
                                     </div>
                                 </li>
                                 <li class="nav-item active">
                                     <a class="nav-link" href="#">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">로그인</a>
+                                    <a class="nav-link" href="<%=request.getContextPath()%>/login.html">로그인</a>
                                 </li>
                                 <li><a href="#" class="btn btn-outline-light top-btn"><span class="ti-plus"></span> 회원가입</a></li>
                             </ul>

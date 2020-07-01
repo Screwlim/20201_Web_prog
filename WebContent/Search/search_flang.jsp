@@ -38,7 +38,7 @@
 </head>
 <body>
     <!--============================= HEADER =============================-->
-    <%@ include file="./header.jsp" %>
+    <%@ include file="../header.jsp" %>
     <!--============================= DETAIL =============================-->
     <section>
         <div class="container-fluid">
@@ -236,7 +236,7 @@
     </section>
     <!--//END DETAIL -->
     <!--============================= FOOTER =============================-->
-   <%@ include file="./footer.jsp" %>
+   <%@ include file="../footer.jsp" %>
 
 </body>
 

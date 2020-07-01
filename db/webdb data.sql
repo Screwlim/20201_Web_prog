@@ -115,5 +115,5 @@ insert into F_DETAIL values(10, 5, '새로운 시작', 'jak.jpg');
 insert into F_DETAIL values(11, 2, '돈을 불러주는 돈나무', 'money.jpg');
 
 
-
+commit();
 

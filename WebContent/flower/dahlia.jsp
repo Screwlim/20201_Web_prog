@@ -16,28 +16,28 @@
     <!-- Page Title -->
     <title>연인+감사</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
     <!-- Simple line Icon -->
-    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <link rel="stylesheet" href="../resources/css/simple-line-icons.css">
     <!-- Themify Icon -->
-    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="../resources/css/themify-icons.css">
     <!-- Hover Effects -->
-    <link rel="stylesheet" href="css/set1.css">
+    <link rel="stylesheet" href="../resources/css/set1.css">
     <!-- Swipper Slider -->
-    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="../resources/css/swiper.min.css">
     <!-- Magnific Popup CSS -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="../resources/css/magnific-popup.css">
     <!-- Main CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../resources/css/style.css">
     
     <style>
     		@font-face { font-family: 'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
            
             .s {
             font-family: RIDIBatang;
-            width: 647px;
+            width: 706.5px;
             height: 620px;
         }
         .container{
@@ -123,7 +123,16 @@
 </section>
     <!--//END RESERVE A SEAT -->
     <!--============================= 내용 ============================-->
-    <section class="light-bg booking-details_wrap">
+
+<section class="light-bg booking-details_wrap">
+           <div>
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+				
+
+                
+         <div class="swiper-slide">                 
 		    <div class="container">
 			      <div class="row">
 				        <div class="col-12">
@@ -131,7 +140,7 @@
 						            <div class="card-header">
 						   				<h4>다알리아</h4>
 						            </div>
-					            <img class="s" id="dahlia" src="./resources/images/dahlia.jpg" alt="다알리아"><br>
+					            <img class="s" id="dahlia" src="../resources/images/dahlia.jpg" alt="다알리아"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"당신의 사랑이 나를 행복하게 해요"</h5>
 					              <p class="card-text">극화과의 다알리아속으로 관상용으로 주로 심습니다. 보통 두상화의 지름이 5~7.5cm이나 대륜계의 경우 크고 아름다운 꽃을 피웁니다.</p>
@@ -140,7 +149,10 @@
 				        </div>
 			      </div>
 		    </div>
-		    
+       </div>
+       
+       
+       <div class="swiper-slide">
 		    <div class="container">
 			      <div class="row">
 				        <div class="col-12">
@@ -148,7 +160,7 @@
 						            <div class="card-header">
 						   				<h4>진분홍 장미</h4>
 						            </div>
-					            <img class="s" id="prose" src="./resources/images/prose.jpg" alt="진분홍 장미"><br>
+					            <img class="s" id="prose" src="../resources/images/prose.jpg" alt="진분홍 장미"><br>
 					            <div class="card-body">
 					              <h5 class="card-title">"감사합니다"</h5>
 					              <p class="card-text">장미과 장미속에 속합니다. 높이는 2~3m이며 잎은 어긋나고 깃 모양으로, 5~6월에 개화합니다.</p>
@@ -157,8 +169,20 @@
 				        </div>
 			      </div>
 		    </div>
+        </div>
 
-</section>			
+                </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination swiper-pagination-white"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next swiper-button-white"></div>
+            <div class="swiper-button-prev swiper-button-white"></div>
+        </div>
+    </div>
+
+</section>   
+
+		
     <!--//END BOOKING DETAILS -->
     <!--============================= FOOTER =============================-->
     <footer class="main-block dark-bg">
@@ -183,17 +207,17 @@
 
     <!-- jQuery, Bootstrap JS. -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../resources/js/jquery-3.2.1.min.js"></script>
+    <script src="../resources/js/popper.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
     <!-- Magnific popup JS -->
-    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="../resources/js/jquery.magnific-popup.js"></script>
     <!-- Swipper Slider JS -->
-    <script src="js/swiper.min.js"></script>
+    <script src="../resources/js/swiper.min.js"></script>
     <script>
         var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 3,
-            slidesPerGroup: 3,
+            slidesPerView: 1,
+            slidesPerGroup: 1,
             loop: true,
             loopFillGroupWithBlank: true,
             pagination: {

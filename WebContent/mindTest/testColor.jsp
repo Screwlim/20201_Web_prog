@@ -128,8 +128,8 @@
                 <div class="col-md-6 responsive-wrap">
                     <div class="row light-bg detail-options-wrap">
                     	<%
-                    	for (int i = 0; i < colorList.size(); i++) {
-    						TestColor colorTest = colorList.get(i);
+                    	for (int k = 0; k < colorList.size(); k++) {
+    						TestColor colorTest = colorList.get(k);
                     	%>
                     	<div class="col-sm-1 col-lg-1"></div>
                         <div class="col-sm-4 col-lg-4 col-xl-4 featured-responsive">

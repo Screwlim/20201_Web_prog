@@ -136,7 +136,9 @@
 										class="ti-plus"></span> 회원가입</a></li>
 								<%
 									} else {
+										String usr_name = (String)session.getAttribute("ID");
 								%>
+								<li class="nav-link"><%=usr_name %> 님 환영합니다. </li>
 								<li><a href="<%=request.getContextPath() %>/logout.jsp"
 									class="btn btn-outline-light top-btn"><span class="ti-plus"></span>
 										로그아웃</a></li>

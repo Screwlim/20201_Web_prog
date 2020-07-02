@@ -116,11 +116,11 @@
 								<%
 									boolean check = false;
 									Enumeration en = session.getAttributeNames();
-									int i = 0;
+									int j = 0;
 									while (en.hasMoreElements()) {
-										i++;
+										j++;
 										String name = en.nextElement().toString();
-										if (name == "valid") {
+										if (name.equals("valid")) {
 											check = (boolean) session.getAttribute("valid");
 											break;
 										}
@@ -135,7 +135,9 @@
 										class="ti-plus"></span> 회원가입</a></li>
 								<%
 									} else {
+										String usr_name = (String)session.getAttribute("USER_NAME");
 								%>
+								<li class="nav-item dropdown"> <%=usr_name%>환영합니다. </li>
 								<li><a href="<%=request.getContextPath() %>/logout.jsp"
 									class="btn btn-outline-light top-btn"><span class="ti-plus"></span>
 										로그아웃</a></li>

@@ -10,21 +10,21 @@ public class GameResult {
 	private ArrayList<Game> game = new ArrayList<Game>();
 	
 /*
-	ground -> ì”¨ì•—ì„ ì‹¬ëŠ” ì¥ì†Œ
-	 - 1: garden, ì„ íƒí•  ê²½ìš° ëª©ë³¸ ì‹ë¬¼ì´ ìëŒ
-	 - 2: flowerpot, ì„ íƒí•  ê²½ìš°  ì´ˆë³¸ ì‹ë¬¼ì´ ìëŒ
+	ground -> ¾¾¾ÑÀ» ½É´Â Àå¼Ò
+	 - 1: garden, ¼±ÅÃÇÒ °æ¿ì ¸ñº» ½Ä¹°ÀÌ ÀÚ¶÷
+	 - 2: flowerpot, ¼±ÅÃÇÒ °æ¿ì  ÃÊº» ½Ä¹°ÀÌ ÀÚ¶÷
 	 
-	color -> ì”¨ì•—ì—ê²Œ ì¤„ ì˜ì–‘1, ì•¡ì²´
-	 - 1: red, í† ë§ˆí†  ì£¼ìŠ¤ë¥¼ ë¿Œë¦¬ë©° ë¹¨ê°„ìƒ‰ ê½ƒì´ ìëŒ
-	 - 2: yellow, ì˜¤ë Œì§€ ì£¼ìŠ¤ë¥¼ ë¿Œë¦¬ë©° ì£¼í™©ìƒ‰/ë…¸ë€ìƒ‰ ê½ƒì´ ìëŒ
-	 - 3: white, ë¬¼ì„ ë¿Œë¦¬ë©° í°ìƒ‰ ê½ƒì´ ìëŒ
-	 - 4: purple, ì™€ì¸ì„ ë¿Œë¦¬ë©° ë¶„í™ìƒ‰/ë³´ë¼ìƒ‰ ê½ƒì´ ìëŒ
+	color -> ¾¾¾Ñ¿¡°Ô ÁÙ ¿µ¾ç1, ¾×Ã¼
+	 - 1: red, Åä¸¶Åä ÁÖ½º¸¦ »Ñ¸®¸ç »¡°£»ö ²ÉÀÌ ÀÚ¶÷
+	 - 2: yellow, ¿À·»Áö ÁÖ½º¸¦ »Ñ¸®¸ç ÁÖÈ²»ö/³ë¶õ»ö ²ÉÀÌ ÀÚ¶÷
+	 - 3: white, ¹°À» »Ñ¸®¸ç Èò»ö ²ÉÀÌ ÀÚ¶÷
+	 - 4: purple, ¿ÍÀÎÀ» »Ñ¸®¸ç ºĞÈ«»ö/º¸¶ó»ö ²ÉÀÌ ÀÚ¶÷
 	
-	season -> ì”¨ì•—ì—ê²Œ ì¤„ ì˜ì–‘2, ë¹„ë£Œ
-	 - 1: spring, ë´„ì— í”¼ì–´ë‚˜ëŠ” ê½ƒì´ ë‚˜ì˜´
-	 - 2: summer, ì—¬ë¦„ì— í”¼ì–´ë‚˜ëŠ” ê½ƒì´ ë‚˜ì˜´
-	 - 3: autumn, ê°€ì„ì— í”¼ì–´ë‚˜ëŠ” ê½ƒì´ ë‚˜ì˜´
-	 - 4: winter, ê²¨ìš¸ì— í”¼ì–´ë‚˜ëŠ” ê½ƒì´ ë‚˜ì˜´
+	season -> ¾¾¾Ñ¿¡°Ô ÁÙ ¿µ¾ç2, ºñ·á
+	 - 1: spring, º½¿¡ ÇÇ¾î³ª´Â ²ÉÀÌ ³ª¿È
+	 - 2: summer, ¿©¸§¿¡ ÇÇ¾î³ª´Â ²ÉÀÌ ³ª¿È
+	 - 3: autumn, °¡À»¿¡ ÇÇ¾î³ª´Â ²ÉÀÌ ³ª¿È
+	 - 4: winter, °Ü¿ï¿¡ ÇÇ¾î³ª´Â ²ÉÀÌ ³ª¿È
 */
 	
 	public GameResult() {
@@ -39,72 +39,72 @@ public class GameResult {
 			}
 		}
 		
-		result[0].setResult("ì² ì­‰");
+		result[0].setResult("Ã¶Âß");
 		result[0].setImage("../resources/images/azalea.jpg");
-		result[1].setResult("ì¥ë¯¸");
+		result[1].setResult("Àå¹Ì");
 		result[1].setImage("../resources/images/rose.jpg");
-		result[2].setResult("ë¬´ê¶í™”");
+		result[2].setResult("¹«±ÃÈ­");
 		result[2].setImage("../resources/images/sharon.jpg");
-		result[3].setResult("ë™ë°±ë‚˜ë¬´");
+		result[3].setResult("µ¿¹é³ª¹«");
 		result[3].setImage("../resources/images/camelia.jpg");
 		
-		result[4].setResult("ê°œë‚˜ë¦¬");
+		result[4].setResult("°³³ª¸®");
 		result[4].setImage("../resources/images/forsythia.jpg");
 		result[5].setResult("");
-		result[6].setResult("ê¸ˆëª©ì„œ");
+		result[6].setResult("±İ¸ñ¼­");
 		result[6].setResult("../resources/images/osmanthus.jpg");
 		result[7].setResult("");
 		
-		result[8].setResult("ëª©ë ¨");
+		result[8].setResult("¸ñ·Ã");
 		result[8].setResult("../resources/images/magnolia.jpg");
-		result[9].setResult("ì•„ì¹´ì‹œì•„");
+		result[9].setResult("¾ÆÄ«½Ã¾Æ");
 		result[9].setImage("../resources/images/accacia.jpg");
-		result[10].setResult("ì°¨ë‚˜ë¬´");
+		result[10].setResult("Â÷³ª¹«");
 		result[10].setImage("../resources/images/teaplant.jpg");
-		result[11].setResult("ë™ë°±ë‚˜ë¬´");
+		result[11].setResult("µ¿¹é³ª¹«");
 		result[11].setImage("../resources/images/camelia_white.jpg");
 		
-		result[12].setResult("ì§„ë‹¬ë˜");
+		result[12].setResult("Áø´Ş·¡");
 		result[12].setImage("../resources/images/jindallae.jpg");
-		result[13].setResult("ì‹¸ë¦¬");
+		result[13].setResult("½Î¸®");
 		result[14].setImage("../resources/images/lespedeza.jpg");
 		result[14].setResult("");
 		result[15].setResult("");
 		
 		
-		result[16].setResult("ì•µì´ˆ");
+		result[16].setResult("¾ŞÃÊ");
 		result[16].setImage("../resources/images/primpose.jpg");
-		result[17].setResult("ë´‰ì„ í™”");
+		result[17].setResult("ºÀ¼±È­");
 		result[17].setImage("../resources/images/balsam.jpg");
-		result[18].setResult("ì±„ì†¡í™”");
+		result[18].setResult("Ã¤¼ÛÈ­");
 		result[19].setImage("../resources/images/rosemoss.jpg");
-		result[19].setResult("ì•„ë§ˆë¦´ë¦¬ìŠ¤");
+		result[19].setResult("¾Æ¸¶¸±¸®½º");
 		result[19].setImage("../resources/images/amaryllis.jpg");
 		
-		result[20].setResult("ë¯¼ë“¤ë ˆ");
+		result[20].setResult("¹Îµé·¹");
 		result[20].setImage("../resources/images/dandelion.jpg");
-		result[21].setResult("í•´ë°”ë¼ê¸°");
+		result[21].setResult("ÇØ¹Ù¶ó±â");
 		result[21].setImage("../resources/images/sunflower.jpg");
-		result[22].setResult("êµ­í™”");
+		result[22].setResult("±¹È­");
 		result[22].setImage("../resources/images/chrysanthemum.jpg");
-		result[23].setResult("ë‚œì´ˆ");
+		result[23].setResult("³­ÃÊ");
 		result[23].setImage("../resources/images/orchid.jpg");
 		
-		result[24].setResult("ë°±í•©");
+		result[24].setResult("¹éÇÕ");
 		result[24].setImage("../resources/images/snow.jpg");
-		result[25].setResult("ê°œë§ì´ˆ");
+		result[25].setResult("°³¸ÁÃÊ");
 		result[25].setImage("../resources/images/eggflower.jpg");
-		result[26].setResult("ì½”ìŠ¤ëª¨ìŠ¤");
+		result[26].setResult("ÄÚ½º¸ğ½º");
 		result[26].setImage("../resources/images/cosmos.jpg");
 		result[27].setResult("");
 		
-		result[28].setResult("ì œë¹„ê½ƒ");
+		result[28].setResult("Á¦ºñ²É");
 		result[28].setImage("../resources/images/violet.jpg");
-		result[29].setResult("êµ¬ë¦„íŒ¨ë­ì´ê½ƒ");
+		result[29].setResult("±¸¸§ÆĞ·©ÀÌ²É");
 		result[29].setImage("../resources/images/cloud.jpg");
-		result[30].setResult("ê½ƒí–¥ìœ ");
+		result[30].setResult("²ÉÇâÀ¯");
 		result[30].setImage("../resources/images/shinymint.jpg");
-		result[31].setResult("ì‚¬ë‘ì´ˆ");
+		result[31].setResult("»ç¶ûÃÊ");
 		result[31].setImage("../resources/images/loveflower.jpg");
 		
 	}

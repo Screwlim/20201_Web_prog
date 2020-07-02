@@ -139,7 +139,7 @@ insert into F_DETAIL values(2, 1, '기쁨의 순간', 'rgypsophila.jpg');
 insert into F_DETAIL values(3, 5, '자랑스럽다', 'pampas.jpg');
 insert into F_DETAIL values(4, 1, '축복합니다 축하합니다', 'poinsettia.jpg');
 insert into F_DETAIL values(5, 2, '반드시 오고야 말 행복', 'mery.jpg');
-insert into F_DETAIL values(6, 3, '슬픈 그대가 좋아요', 'long.jpg');
+insert into F_DETAIL values(6, 3, '슬픈 그대가 좋아요', 'yong.jpg');
 insert into F_DETAIL values(7, 6, '희망', 'snow.jpg');
 insert into F_DETAIL values(8, 5, '근심을 풀어주세요', 'christ.jpg');
 insert into F_DETAIL values(9, 2, '당신의 시작을 응원해', 'freesia.jpg');

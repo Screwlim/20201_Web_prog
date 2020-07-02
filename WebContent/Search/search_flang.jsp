@@ -18,25 +18,32 @@
 <!-- Page Title -->
 <title>Flower Search &amp; Directory Website Template</title>
 <!-- Bootstrap CSS -->
-<link rel="stylesheet" href="../resources/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="../../resources/css/bootstrap.min.css">
 <!-- Google Fonts -->
 <link
 	href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900"
 	rel="stylesheet">
 <!-- Simple line Icon -->
-<link rel="stylesheet" href="../resources/css/simple-line-icons.css">
+<link rel="stylesheet"
+	href="../../resources/css/simple-line-icons.css">
 <!-- Themify Icon -->
-<link rel="stylesheet" href="../resources/css/themify-icons.css">
+<link rel="stylesheet"
+	href="../../resources/css/themify-icons.css">
 <!-- Hover Effects -->
-<link rel="stylesheet" href="../resources/css/set1.css">
+<link rel="stylesheet"
+	href="../../resources/css/set1.css">
 <!-- Main CSS -->
-<link rel="stylesheet" href="../resources/css/style.css">
+<link rel="stylesheet"
+	href="../../resources/css/style.css">
 
 <!-- jQuery, Bootstrap JS. -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="../resources/js/jquery-3.2.1.min.js"></script>
-<script src="../resources/js/popper.min.js"></script>
-<script src="../resources/js/bootstrap.min.js"></script>
+<script
+	src="../../resources/js/jquery-3.2.1.min.js"></script>
+<script src="../../resources/js/popper.min.js"></script>
+<script
+	src="../../resources/js/bootstrap.min.js"></script>
 <style>
 @font-face {
 	font-family: 'RIDIBatang';
@@ -103,7 +110,8 @@
 										name="search_flang">
 								</div>
 								<div class="col-md-4 featured-responsive">
-									<button type="submit" class="btn-form center-block" style="border-radius : 5px">
+									<button type="submit" class="btn-form center-block"
+										style="border-radius: 5px">
 										<span class="icon-magnifier search-icon"></span>검색
 									</button>
 								</div>
@@ -116,71 +124,70 @@
 							<div class="container-fluid col-md-6">
 								<div class="btn-group" data-toggle="buttons">
 									<label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="0">
+										type="checkbox"  name="keyword" value="0">
 										희망
 									</label> <label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="1">
+										type="checkbox"  name="keyword" value="1">
 										사랑
 									</label> <label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="2">
+										type="checkbox"  name="keyword" value="2">
 										우정
 									</label> <label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="3">
+										type="checkbox" name="keyword" value="3">
 										기쁨
 									</label> <label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="4">
+										type="checkbox"  name="keyword" value="4">
 										감사
 									</label> <label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="5">
+										type="checkbox"  name="keyword" value="5">
 										성취
 									</label> <label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="6">
+										type="checkbox"  name="keyword" value="6">
 										축하
 									</label> <label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="7">
+										type="checkbox"  name="keyword" value="7">
 										행복
 									</label> <label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="8">
+										type="checkbox" name="keyword" value="8">
 										축복
 									</label> <label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="9">
+										type="checkbox"  name="keyword" value="9">
 										자랑
 									</label> <label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="10">
+										type="checkbox"  name="keyword" value="10">
 										걱정
 									</label>
 								</div>
 								<div class="btn-group" data-toggle="buttons">
 
 									<label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="11">
+										type="checkbox"  name="keyword" value="11">
 										슬픔
 									</label> <label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="12">
+										type="checkbox" " name="keyword" value="12">
 										위로
 									</label> <label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="13">
+										type="checkbox"  name="keyword" value="13">
 										시작
 									</label> <label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="14">
+										type="checkbox"  name="keyword" value="14">
 										존경
 									</label> <label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="15">
+										type="checkbox" name="keyword" value="15">
 										응원
 									</label> <label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="16">
+										type="checkbox"  name="keyword" value="16">
 										재물
 									</label> <label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="17">
+										type="checkbox"  name="keyword" value="17">
 										분노
 									</label> <label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="18">
+										type="checkbox"  name="keyword" value="18">
 										질투
 									</label> <label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="19">
-										최선
+										type="checkbox"  name="keyword" value="19">최선
 									</label> <label class="btn btn-primary btn-lg"> <input
-										type="checkbox" autocomplete="off" name="keyword" value="20">
+										type="checkbox"  name="keyword" value="20">
 										건강
 									</label> <label class="btn btn-primary btn-lg"> <input
 										type="checkbox" autocomplete="off" name="keyword" value="21">
@@ -190,10 +197,10 @@
 							</div>
 							<p></p>
 							<div class="row container-fluid">
-							<div class="col-md-5"> </div>
+								<div class="col-md-5"></div>
 								<div class="col-md-3">
 									<button type="submit" class="btn-form "
-										style="width: 200px; text-align: center; border-radius : 5px">
+										style="width: 200px; text-align: center; border-radius: 5px">
 										<span class="icon-magnifier search-icon"> 키워드 검색</span>
 									</button>
 								</div>

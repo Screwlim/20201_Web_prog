@@ -35,7 +35,7 @@
 		<div class="container-login100">
 			<div class="wrap-login100">
 				<div class="login100-pic js-tilt" data-tilt>
-					<a href="./index.html"><img src="./resources/images/img-01.png"
+					<a href="./index.jsp"><img src="./resources/images/img-01.png"
 						alt="IMG"></a>
 				</div>
 

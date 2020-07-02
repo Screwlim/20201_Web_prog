@@ -34,7 +34,7 @@ public final class SearchController extends HttpServlet {
 		System.out.println(command);
 		if(command.equals("/Search/SearchByOptions.do") ) {
 			requestSearchByOptions(request);
-			RequestDispatcher rd = request.getRequestDispatcher("search_flower.jsp");
+			RequestDispatcher rd = request.getRequestDispatcher("/Search/search_flower.jsp");
 			rd.forward(request, response);
 		}else if(command.equals("/SearchByOptions.do")){
 			requestSearchByOptions(request);

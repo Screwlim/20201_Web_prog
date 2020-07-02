@@ -10,7 +10,7 @@ public class DBConnection {
 		Connection conn = null;
 		//connection information
 
-		String url = "jdbc:oracle:thin:@localhost:1521:xe";
+		String url = "jdbc:oracle:thin:@localhost:1521:orcl";
 		String user = "webdb";
 		String password = "webdb";
 		

@@ -8,31 +8,31 @@ public class TestColorList {
 	
 	public TestColorList() {
 		TestColor color1 = new TestColor("1", "color1");
-		color1.setColorPerson("í˜¼ìžë§Œì˜ ì‹œê°„ì„ ì¦ê¸°ëŠ” ì‚¬ëžŒ");
-		color1.setColorDescription("ë‹¤ë¥¸ ì‚¬ëžŒë“¤ê³¼ ìžˆëŠ” ê²ƒë³´ë‹¤ í˜¼ìžë§Œì˜ ì‹œê°„ì„ ë³´ë‚´ëŠ” ê²ƒì„ ë” í–‰ë³µí•´í•©ë‹ˆë‹¤.<br>"
-				+ "í•œê°€ë¡œìš´ ì£¼ë§ì—ë„ ì‹œë„ëŸ¬ìš´ ëª¨ìž„ë³´ë‹¤ëŠ”, ì§‘ì—ì„œ TVë¥¼ ë³´ëŠ” ë“±ì˜ í˜¼ìžë§Œì˜ ì‹œê°„ì„ ê°–ìŠµë‹ˆë‹¤.");
-		color1.setRecName("ì„ ì¸ìž¥");
+		color1.setColorPerson("È¥ÀÚ¸¸ÀÇ ½Ã°£À» Áñ±â´Â »ç¶÷");
+		color1.setColorDescription("´Ù¸¥ »ç¶÷µé°ú ÀÖ´Â °Íº¸´Ù È¥ÀÚ¸¸ÀÇ ½Ã°£À» º¸³»´Â °ÍÀ» ´õ Çàº¹ÇØÇÕ´Ï´Ù.<br>"
+				+ "ÇÑ°¡·Î¿î ÁÖ¸»¿¡µµ ½Ã²ô·¯¿î ¸ðÀÓº¸´Ù´Â, Áý¿¡¼­ TV¸¦ º¸´Â µîÀÇ È¥ÀÚ¸¸ÀÇ ½Ã°£À» °®½À´Ï´Ù.");
+		color1.setRecName("¼±ÀÎÀå");
 		color1.setRecPhoto("../resources/images/cactus_flower.jpg");
 		
 		TestColor color2 = new TestColor("2", "color2");
-		color2.setColorPerson("í™•ì‹¤í•œ í˜¸ë¶ˆí˜¸ì™€ íŒë‹¨ë ¥ì„ ê°€ì§„ ì‚¬ëžŒ");
-		color2.setColorDescription("ë³¸ì¸ë§Œì˜ í˜¸ë¶ˆí˜¸ê°€ í™•ì‹¤í•˜ì§€ë§Œ, ë‹¤ë¥¸ ì‚¬ëžŒì—ê²ŒëŠ” ë“œëŸ¬ë‚´ì§€ ì•ŠìŠµë‹ˆë‹¤.<br>"
-				+ "ì¸ê°„ê´€ê³„ì— ëŒ€í•´ì„œë„ ì¢‹ê³  ì‹«ìŒì´ ë¶„ëª…í•˜ê¸° ë•Œë¬¸ì— ë‹¹ì‹ ì´ ì¢‹ì•„í•˜ëŠ” ì‚¬ëžŒë“¤ê³¼ëŠ” ê¾¸ì¤€ížˆ ì¢‹ì€ ê´€ê³„ë¥¼ ìœ ì§€í•©ë‹ˆë‹¤.");
-		color2.setRecName("ìž‡ê½ƒ");
+		color2.setColorPerson("È®½ÇÇÑ È£ºÒÈ£¿Í ÆÇ´Ü·ÂÀ» °¡Áø »ç¶÷");
+		color2.setColorDescription("º»ÀÎ¸¸ÀÇ È£ºÒÈ£°¡ È®½ÇÇÏÁö¸¸, ´Ù¸¥ »ç¶÷¿¡°Ô´Â µå·¯³»Áö ¾Ê½À´Ï´Ù.<br>"
+				+ "ÀÎ°£°ü°è¿¡ ´ëÇØ¼­µµ ÁÁ°í ½ÈÀ½ÀÌ ºÐ¸íÇÏ±â ¶§¹®¿¡ ´ç½ÅÀÌ ÁÁ¾ÆÇÏ´Â »ç¶÷µé°ú´Â ²ÙÁØÈ÷ ÁÁÀº °ü°è¸¦ À¯ÁöÇÕ´Ï´Ù.");
+		color2.setRecName("ÀÕ²É");
 		color2.setRecPhoto("../resources/images/safflower.jpg");
 		
 		TestColor color3 = new TestColor("3", "color3");
-		color3.setColorPerson("ë‚¨ë‹¤ë¥¸ ìƒìƒë ¥ì„ ê°€ì§„ ì‚¬ëžŒ");
-		color3.setColorDescription("ë‹¤ë¥¸ ì‚¬ëžŒë“¤ê³¼ í•¨ê»˜ ìžˆì„ë•Œë„ ìžì‹ ë§Œì˜ ìƒê°ì— ë¹ ì ¸ ë‹¤ì–‘í•œ ê²ƒë“¤ì„ ìƒìƒí•˜ê³¤ í•©ë‹ˆë‹¤.<br>"
-				+ "ë§¤ì¼ ë‹¤ì–‘í•œ ê²ƒì„ ìƒê°í•˜ë©´ì„œ ìƒˆë¡œìš´ ê²ƒì„ ë§Œë“¤ì–´ë‚´ê¸°ë„ í•©ë‹ˆë‹¤.");
-		color3.setRecName("ížˆë§ë¼ì•¼ í¬í”¼");
+		color3.setColorPerson("³²´Ù¸¥ »ó»ó·ÂÀ» °¡Áø »ç¶÷");
+		color3.setColorDescription("´Ù¸¥ »ç¶÷µé°ú ÇÔ²² ÀÖÀ»¶§µµ ÀÚ½Å¸¸ÀÇ »ý°¢¿¡ ºüÁ® ´Ù¾çÇÑ °ÍµéÀ» »ó»óÇÏ°ï ÇÕ´Ï´Ù.<br>"
+				+ "¸ÅÀÏ ´Ù¾çÇÑ °ÍÀ» »ý°¢ÇÏ¸é¼­ »õ·Î¿î °ÍÀ» ¸¸µé¾î³»±âµµ ÇÕ´Ï´Ù.");
+		color3.setRecName("È÷¸»¶ó¾ß Æ÷ÇÇ");
 		color3.setRecPhoto("../resources/images/poppy_blue.jpg");
 		
 		TestColor color4 = new TestColor("4", "color4");
-		color4.setColorPerson("ì°¨ê·¼ì°¨ê·¼ ê³„íší•˜ëŠ” ì‚¬ëžŒ");
-		color4.setColorDescription("ë¯¸ë¦¬ ì •ëˆëœ ê³„íšì— ë§žì¶° í–‰ë™ì„ í•˜ë©°, ì¶©ë™ì ì¸ í–‰ë™ì„ ê±°ì˜ í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤."
-				+ "ë¯¸ë¦¬ ê³„íšì„ ì„¸ì›Œì„œ í–‰ë™í•˜ê¸° ë•Œë¬¸ì— ì‹¤ìˆ˜ê°€ ì ì€ íŽ¸ìž…ë‹ˆë‹¤.");
-		color4.setRecName("ìœ ì¹´");
+		color4.setColorPerson("Â÷±ÙÂ÷±Ù °èÈ¹ÇÏ´Â »ç¶÷");
+		color4.setColorDescription("¹Ì¸® Á¤µ·µÈ °èÈ¹¿¡ ¸ÂÃç Çàµ¿À» ÇÏ¸ç, Ãæµ¿ÀûÀÎ Çàµ¿À» °ÅÀÇ ÇÏÁö ¾Ê½À´Ï´Ù."
+				+ "¹Ì¸® °èÈ¹À» ¼¼¿ö¼­ Çàµ¿ÇÏ±â ¶§¹®¿¡ ½Ç¼ö°¡ ÀûÀº ÆíÀÔ´Ï´Ù.");
+		color4.setRecName("À¯Ä«");
 		color4.setRecPhoto("../resources/images/yucca.jpg");
 		
 		colorList.add(color1);

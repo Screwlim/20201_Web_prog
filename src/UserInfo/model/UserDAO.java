@@ -7,6 +7,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import UserInfo.model.UserDTO;
@@ -57,7 +58,7 @@ public class UserDAO {
 	// 404 아이디 존재 X	
 	// 405 비번 맞지 않음
 
-	public int loginCheck(String ID, String PW) {
+	public int loginCheck(String ID, String PW, HttpServletRequest request) {
 		Connection conn = null;
 		Statement stmt = null;
 		ResultSet rs = null;
@@ -73,6 +74,7 @@ public class UserDAO {
 			rs = stmt.executeQuery(sql);
 			if (rs.next()) {
 				System.out.println(rs.getString("USER_NAME"));
+				request.setAttribute("USER_NAME", rs.getString("USER_NAME"));
 				status = 200;
 			} else {
 				status = 405;

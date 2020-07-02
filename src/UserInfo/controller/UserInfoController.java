@@ -44,6 +44,7 @@ public class UserInfoController extends HttpServlet {
 			case 405:
 				session.setAttribute("valid", false);
 				session.setAttribute("status", check);
+				session.setAttribute("ID", request.getParameter("ID"));
 				RequestDispatcher rd = request.getRequestDispatcher("/login.jsp");
 				rd.forward(request, response);
 				break;
@@ -58,6 +59,7 @@ public class UserInfoController extends HttpServlet {
 			session.setAttribute("valid", true);
 			response.sendRedirect("index.jsp");
 		}
+		System.out.println(command);
 	}
 
 	public void requestSignUp(HttpServletRequest request) {
@@ -77,7 +79,7 @@ public class UserInfoController extends HttpServlet {
 		if (PW == null)
 			PW = "";
 		System.out.println("ID : " + ID + " PW : " + PW);
-		int check = dao.loginCheck(ID, PW);
+		int check = dao.loginCheck(ID, PW, request);
 		System.out.println("requestLogin : " + check);
 		request.setAttribute("status", String.valueOf(check));
 		return check;
